@@ -1,0 +1,12 @@
+{
+  "url": "https://raw.githubusercontent.com/jrsoftware/issrc/refs/heads/main/Files/Languages/ChineseSimplified.isl",
+  "sha256": "e0b0b350e2245f3c5e65586dfe43d574f6e7f06f2261149aba284954b3fc9a8d",
+  "translated_keys": 273,
+  "project_translated_keys": [
+    "DownloadingLabel",
+    "ErrorFileHash1",
+    "ErrorFileHash2"
+  ],
+  "fallback_keys": [],
+  "compatibility": "Only keys present in bundled Inno Setup 6.2.2 Default.isl; placeholders checked."
+}

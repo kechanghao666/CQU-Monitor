@@ -1,0 +1,1142 @@
+{
+  "version": "1.2.7",
+  "self_excluded": true,
+  "files": {
+    ".gitignore": {
+      "bytes": 152,
+      "sha256": "5FB293B534CDB263D10E0C16A53214D6A0E993C2FFCECF1E9B86C48476BDA575"
+    },
+    "AGENTS.md": {
+      "bytes": 3121,
+      "sha256": "0CCFB7D5043E9CF9EEA0AE8E86211ABD612E620D1483235C377CE3C501E1663F"
+    },
+    "cqu_monitor/__init__.py": {
+      "bytes": 69,
+      "sha256": "F86B5E64FDFA22612CE2E72F1B5824D8D7ADB7D5F2C2083DC88B9765782D56D6"
+    },
+    "cqu_monitor/__main__.py": {
+      "bytes": 4536,
+      "sha256": "082B5CEAA58823B4DF14B63B47AE3414F0A3720C1E658784C3FC395A383EC34D"
+    },
+    "cqu_monitor/alerts.py": {
+      "bytes": 5883,
+      "sha256": "5267841360B9AA338BE58B1CBF8DD3C36E3ED8047DC81EC77EE2892D1A82B14A"
+    },
+    "cqu_monitor/assets/alarm.wav": {
+      "bytes": 19888,
+      "sha256": "C0C1D84AA36720C638532D8758C7FC7CCA3579CF11BE5A34BAA84F386E751FFB"
+    },
+    "cqu_monitor/chart_detail.py": {
+      "bytes": 2499,
+      "sha256": "9E8FD681F64A62AE86DD9428700023897F3CC7DBDD0029859896BC31891C3ED2"
+    },
+    "cqu_monitor/config.py": {
+      "bytes": 10994,
+      "sha256": "C0145848C72A7BE002F3B7F8DEE5EAB1B66A5A71A93B7F7898FDF882053457C7"
+    },
+    "cqu_monitor/controller.py": {
+      "bytes": 34636,
+      "sha256": "A41D7B2DEB1EC6302F112D7052C02910261EC173ED80CC2AF32E0990C20E3E5E"
+    },
+    "cqu_monitor/dialogs.py": {
+      "bytes": 33311,
+      "sha256": "AB7EBB12D0420022A4DA6488BF660F837689AEC35FCDDF24C5D9EE253C002878"
+    },
+    "cqu_monitor/engine.py": {
+      "bytes": 20635,
+      "sha256": "AD765EB621493CFD6F537C9F794D7938FA05D59BD3E9E212D96EAC5EF58FE9EE"
+    },
+    "cqu_monitor/isolated.py": {
+      "bytes": 5157,
+      "sha256": "C6115431CCAF32E3F1E8CA4416B588D45376CF05CCEE69E7AEEFFA617AA41F79"
+    },
+    "cqu_monitor/pulse.py": {
+      "bytes": 15492,
+      "sha256": "4CA58EFC7E65BE7CA7777B823A52C7534D20D180E4D9F551D08FA8B71FC61D35"
+    },
+    "cqu_monitor/pulse_settings.py": {
+      "bytes": 4265,
+      "sha256": "E4651253D331DCD98BD6E1D4B095C02A9669F75C49B16F6951CE8C1B75DD6561"
+    },
+    "cqu_monitor/pulse_workers.py": {
+      "bytes": 6357,
+      "sha256": "F895C2F4B1CC3EC6F9A2D6182CAC66A7AD3CFF90D7D6B89F43B2CB3D709C09AF"
+    },
+    "cqu_monitor/startup_check.py": {
+      "bytes": 7687,
+      "sha256": "1D5C1182E6510C2E790F29628BA13ADFDCE75F1785CC4579ED03772E19E76363"
+    },
+    "cqu_monitor/storage.py": {
+      "bytes": 38348,
+      "sha256": "BBD2328D701048522FBB6CB17A17EAF89C243FA8B791C0EA63C6B1613D859F83"
+    },
+    "cqu_monitor/ui.py": {
+      "bytes": 45833,
+      "sha256": "51134B3BAF54418CAC73308A9BC9D8A34A73600970881F3DB9A025C936C0B327"
+    },
+    "cqu_monitor/workers.py": {
+      "bytes": 7452,
+      "sha256": "32786BB62722CB300C28B2FDEAE5842F138CF2DC02364C45CAF72FF867118FFD"
+    },
+    "docs/代码导读与维护检查.md": {
+      "bytes": 6939,
+      "sha256": "EDA8E9E8B6DBC1220C34717944B9DD5D67BCE9690D886C0ED51A579D42AE93EB"
+    },
+    "docs/使用说明.html": {
+      "bytes": 9742,
+      "sha256": "AD7C26956BDA453DC22B254677C2B050D3E40E9E5BC5E0DC05D4FAB4F7FF00D9"
+    },
+    "docs/使用说明.md": {
+      "bytes": 8741,
+      "sha256": "B10958A739E171E543314953B119621629F253E75F89A522499E61E023DA28AC"
+    },
+    "docs/已确认需求与实现边界.md": {
+      "bytes": 8196,
+      "sha256": "26D346E2B5999106EB291159629330B8A8C0587DFD82C547EBBAA889DA64A9F6"
+    },
+    "docs/开发维护指南.md": {
+      "bytes": 10681,
+      "sha256": "CA442A7F27312C74D81C1C9431DAEA7D52CBFEF75D9E30E04972FAECDE0E6DCD"
+    },
+    "docs/接口约定.md": {
+      "bytes": 8610,
+      "sha256": "39A9CEA0277AF90DFB18E18C1F32DF54873D80A29FE336246D45752D5D2CC4F3"
+    },
+    "packaging/app.iss": {
+      "bytes": 2157,
+      "sha256": "45C2ACA90FFCC8C595FDD79363CAC08B007DADA4D81A782F8DEC83F7E993C354"
+    },
+    "packaging/ChineseSimplified-upstream.isl": {
+      "bytes": 21516,
+      "sha256": "E0B0B350E2245F3C5E65586DFE43D574F6E7F06F2261149ABA284954B3FC9A8D"
+    },
+    "packaging/ChineseSimplified.isl": {
+      "bytes": 20031,
+      "sha256": "FE5EDF94B1B0A02352F6EF345013A698CC9196208DE492C2D86045DD43F6EBE8"
+    },
+    "packaging/corresponding-source/pyside-setup-6.8.3.tar.gz": {
+      "bytes": 19311100,
+      "sha256": "055B467903327E947B60DDEFD2E9E66F6B7558B92A0728C4596E0DC8CE5DD695"
+    },
+    "packaging/corresponding-source/qtbase-everywhere-src-6.8.3.tar.xz": {
+      "bytes": 48426536,
+      "sha256": "56001B905601BB9023D399F3BA780D7FA940F3E4861E496A7C490331F49E0B80"
+    },
+    "packaging/corresponding-source/qtsvg-everywhere-src-6.8.3.tar.xz": {
+      "bytes": 2009072,
+      "sha256": "35EB516460F00F264EB504BAA253432384351CF23FB9980A5857190E8DEEF438"
+    },
+    "packaging/corresponding-source/SOURCES.json": {
+      "bytes": 1011,
+      "sha256": "3815E2386FF827EF6FDF151698892F7639B62CC64E0EB670E9E26AB896584341"
+    },
+    "packaging/hooks/hook-PySide6.py": {
+      "bytes": 775,
+      "sha256": "DAAF938226F3B8F73AFAD48AA1ABE775BD9B39BB50CFFA918D0AEDB8D706D1A5"
+    },
+    "packaging/hooks/hook-PySide6.QtGui.py": {
+      "bytes": 820,
+      "sha256": "20312939D71E3526C975730EEBDC3AF8F172BEECBFCAA07454659B936A98DB97"
+    },
+    "packaging/Qt维护与替换说明.txt": {
+      "bytes": 3159,
+      "sha256": "3BE1DADFCD6014C17136C964103711009BA0DC9D3F25FF94F71F1CBA116F090E"
+    },
+    "packaging/translation-source.json": {
+      "bytes": 465,
+      "sha256": "A14A4C3B095E41405D59579F12B5BBFF2402B321620AFE91CF5D0EF142C3FB1B"
+    },
+    "packaging/upstream_notices/pyserial/LICENSE.txt": {
+      "bytes": 1885,
+      "sha256": "F91CB9813DE6A5B142B8F7F2DEDE630B5134160AEDAEAF55F4D6A7E2593CA3F3"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/datavisualization/graphgallery/data/license.txt": {
+      "bytes": 3502,
+      "sha256": "FB5CBAF2315C9D953BD067B53C8359C6B0E420C05622F85BDB8802872BDF1D72"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/demos/colorpaletteclient/icons/qt_attribution.json": {
+      "bytes": 506,
+      "sha256": "0FC8A47AF683B437B267E999508080E8CB1ED6FE0AE82C450BC702387694079E"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/graphs/3d/widgetgraphgallery/data/license.txt": {
+      "bytes": 3502,
+      "sha256": "FB5CBAF2315C9D953BD067B53C8359C6B0E420C05622F85BDB8802872BDF1D72"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/webenginequick/nanobrowser/icons/3rdparty/COPYING": {
+      "bytes": 75,
+      "sha256": "4F740497CF8AD0E564DE90D3416A06C3D6B1D69D6883FE539925E3353D68A466"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/webenginewidgets/markdowneditor/resources/3rdparty/MARKDOWN-LICENSE.txt": {
+      "bytes": 706,
+      "sha256": "A9A3A17D44F18663160F9AE9CCB630EBDF5C3995DB59327601C44A09F48A6FFB"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/webenginewidgets/markdowneditor/resources/3rdparty/MARKED-LICENSE.txt": {
+      "bytes": 1096,
+      "sha256": "02AEE34CD3742895297E26A81928E5AF1D952D564C99EB8C04406B074AB584FB"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/webenginewidgets/markdowneditor/resources/3rdparty/qt_attribution.json": {
+      "bytes": 1626,
+      "sha256": "BE9CC206AFD6D7F1A77DAA7BB169A8F4734158789CCC5EEAF4FE276BFF81CFA4"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/webenginewidgets/simplebrowser/data/3rdparty/COPYING": {
+      "bytes": 75,
+      "sha256": "4F740497CF8AD0E564DE90D3416A06C3D6B1D69D6883FE539925E3353D68A466"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/webenginewidgets/simplebrowser/data/3rdparty/qt_attribution.json": {
+      "bytes": 911,
+      "sha256": "E99FFA34182E6E1F4DEB0DBCD261201ACC1DFB507B5BBB649A8C5F1580523E65"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/widgets/dialogs/licensewizard/doc/licensewizard.png": {
+      "bytes": 47064,
+      "sha256": "A4D37FA6F9A146672ED95EED537723A7DA88676E108B20F18C8F349A7D116364"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/widgets/dialogs/licensewizard/doc/licensewizard.rst": {
+      "bytes": 290,
+      "sha256": "FAD20794AA982DE57BE8A959B93B0F37F60F9AEE05D1D8B9CD1C8F4DB8A3F307"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/widgets/dialogs/licensewizard/licensewizard.py": {
+      "bytes": 10650,
+      "sha256": "C3F3AF49A7167F91B59815FFB415E996229EF5DF4BD5DD3C80B3D77E155FB082"
+    },
+    "packaging/upstream_notices/pyside-setup/examples/widgets/dialogs/licensewizard/licensewizard.pyproject": {
+      "bytes": 49,
+      "sha256": "63BEB560BA2443516E5BF866F25A5183E6B967AE3781397550E6CAB0E3CAAEE7"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/Apache-2.0.txt": {
+      "bytes": 10398,
+      "sha256": "E3BA223BB1423F0AAD8C3DFCE0FE3148DB48926D41E6FBC3AFBBF5FF9E1C89CB"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/BSD-3-Clause.txt": {
+      "bytes": 1469,
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/GFDL-1.3-no-invariants-only.txt": {
+      "bytes": 22955,
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/GPL-2.0-only.txt": {
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/GPL-3.0-only.txt": {
+      "bytes": 35147,
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/LGPL-3.0-only.txt": {
+      "bytes": 7651,
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/LicenseRef-Qt-Commercial.txt": {
+      "bytes": 462,
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700"
+    },
+    "packaging/upstream_notices/pyside-setup/LICENSES/Qt-GPL-exception-1.0.txt": {
+      "bytes": 965,
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/pyside6/COPYING": {
+      "bytes": 26428,
+      "sha256": "3700B1C56FAE3813DFAAEF1CBA101B6EC108167F36B19F4B2CC8824CC829AA2B"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/pyside6/PySide6/licensecomment.txt": {
+      "bytes": 144,
+      "sha256": "DD6A83DA77D0B6A113A574154C12CB009751C2B0DFE5C22E288CD86EBC2A1F13"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/shiboken6/ApiExtractor/COPYING": {
+      "bytes": 18086,
+      "sha256": "9BF82B3636570E28118EE558DDAB479B8F183D3E20327B7685A7479DF52D6493"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/shiboken6/COPYING": {
+      "bytes": 18086,
+      "sha256": "9BF82B3636570E28118EE558DDAB479B8F183D3E20327B7685A7479DF52D6493"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/shiboken6/COPYING.libsample": {
+      "bytes": 26427,
+      "sha256": "902847D35ABAC99283B01C6BDD6F358D361DE6BB1473C931756AF8D68B890B2B"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/shiboken6/COPYING.libshiboken": {
+      "bytes": 26427,
+      "sha256": "902847D35ABAC99283B01C6BDD6F358D361DE6BB1473C931756AF8D68B890B2B"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/shiboken6/libshiboken/embed/qt_python_license.txt": {
+      "bytes": 2715,
+      "sha256": "BEA27410E09BBFECCD4B3C6E2FCC85B477855603C5D56ECC1A8A3ED73A857364"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/shiboken6/libshiboken/qt_attribution.json": {
+      "bytes": 609,
+      "sha256": "056D368770A9FF66D85DD5209AFABEE964E3095659EA715396409328BC27BA6B"
+    },
+    "packaging/upstream_notices/pyside-setup/sources/shiboken6/shibokenmodule/files.dir/shibokensupport/signature/qt_attribution.json": {
+      "bytes": 590,
+      "sha256": "093D38E8EC6D682433D286BDBA94777F2F55797937E725BC40E1526C41E2DDA1"
+    },
+    "packaging/upstream_notices/pyside-setup/tools/license_check.py": {
+      "bytes": 938,
+      "sha256": "60A8F466A365C20ACAF3E5947F3DB596956E4A8CCAC951D3143B09C385228FBB"
+    },
+    "packaging/upstream_notices/qtbase/.QT-ENTERPRISE-LICENSE-AGREEMENT": {
+      "bytes": 86046,
+      "sha256": "8D01D6E9CC613B9F74BB3BF7EE0BBD68144A9DE8504F2B3827B2B25882E855BB"
+    },
+    "packaging/upstream_notices/qtbase/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS": {
+      "bytes": 1327,
+      "sha256": "46CDE7DC11E64C78D650B4851B88F6704B4665FF60F22A1CAF68CEB15E217E5B"
+    },
+    "packaging/upstream_notices/qtbase/cmake/3rdparty/extra-cmake-modules/qt_attribution.json": {
+      "bytes": 439,
+      "sha256": "1723EC7150C2181F373795FEB78E2C1BCD1EC1D748471E4E02048C2B32489157"
+    },
+    "packaging/upstream_notices/qtbase/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS": {
+      "bytes": 1327,
+      "sha256": "46CDE7DC11E64C78D650B4851B88F6704B4665FF60F22A1CAF68CEB15E217E5B"
+    },
+    "packaging/upstream_notices/qtbase/cmake/3rdparty/kwin/qt_attribution.json": {
+      "bytes": 555,
+      "sha256": "598CB7392971E68CA71039CE3A8063E4FC4504A170D7AD4B80B73857511376A3"
+    },
+    "packaging/upstream_notices/qtbase/cmake/QtPublicSbomLicenseHelpers.cmake": {
+      "bytes": 3283,
+      "sha256": "27E64C546400558C87989E749485BED94957FD1174627BE5C4F1C932E08C1254"
+    },
+    "packaging/upstream_notices/qtbase/coin/instructions/prepare_license_test.yaml": {
+      "bytes": 2146,
+      "sha256": "78989D200B48BD87D0B6CC88F147F9829B07778918CAAFBEFC04677B1BE9E710"
+    },
+    "packaging/upstream_notices/qtbase/coin/instructions/run_license_check.yaml": {
+      "bytes": 322,
+      "sha256": "CD779963B9CA303B74F89A454093530387EADD043802BC72ABE9916C6383767E"
+    },
+    "packaging/upstream_notices/qtbase/doc/src/images/licensewizard-example.png": {
+      "bytes": 87125,
+      "sha256": "B58D613534D4C50598862342D5C2F96234CE0FDA8972B80C9BA2E3B4B6B282C3"
+    },
+    "packaging/upstream_notices/qtbase/examples/widgets/dialogs/licensewizard/licensewizard.cpp": {
+      "bytes": 9921,
+      "sha256": "C81CF50625B97A2EABCFE46C8B20CCEA123736EC5C6E149A86711AE61AF226EC"
+    },
+    "packaging/upstream_notices/qtbase/examples/widgets/dialogs/licensewizard/licensewizard.h": {
+      "bytes": 2104,
+      "sha256": "1D81A5D9ADC3CEBA888AA57B77974350FEDE49082075974504762F1618FDB533"
+    },
+    "packaging/upstream_notices/qtbase/examples/widgets/dialogs/licensewizard/licensewizard.pro": {
+      "bytes": 253,
+      "sha256": "42668D006D6EE28ED66BA3910CF1D106480631DDC24EF5AEE665B982084CCF8A"
+    },
+    "packaging/upstream_notices/qtbase/examples/widgets/dialogs/licensewizard/licensewizard.qrc": {
+      "bytes": 137,
+      "sha256": "7D26A009BC3AD6AA90DE263B4BC4B35A54296745629F0A13B35FBD8E1D96D0F3"
+    },
+    "packaging/upstream_notices/qtbase/examples/widgets/doc/src/licensewizard.qdoc": {
+      "bytes": 7829,
+      "sha256": "6D5346D0F341F0A10BDE888140DC646145985236DD1F19C3C6375AC1B94FF276"
+    },
+    "packaging/upstream_notices/qtbase/licenseRule.json": {
+      "bytes": 10658,
+      "sha256": "9D1D8F3E79F3EB43569031DFCDCE04A6F81C8B2201412D4EF08EB628DCC27163"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/AFL-2.1.txt": {
+      "bytes": 8948,
+      "sha256": "93BB4F7417AA775BAB9026CC3D0AF28AEB64451FC5A8EC651876785EDD8EAF9B"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Apache-2.0.txt": {
+      "bytes": 10398,
+      "sha256": "E3BA223BB1423F0AAD8C3DFCE0FE3148DB48926D41E6FBC3AFBBF5FF9E1C89CB"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Bitstream-Vera.txt": {
+      "bytes": 8816,
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/blessing.txt": {
+      "bytes": 244,
+      "sha256": "592DB1199AAB67AAFE4515DB9808B420DB122083807C5329B2F061951E79ACBE"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/BSD-2-Clause.txt": {
+      "bytes": 1276,
+      "sha256": "8FDA146749CA071AC9CDCE2E24D25444676EA48D1F9DCCC2B7C15C054B717DB8"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/BSD-3-Clause.txt": {
+      "bytes": 1469,
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/BSD-4-Clause.txt": {
+      "bytes": 1672,
+      "sha256": "83FAA0D205C316CE3EFEAFEE465B6A165914FB29595968C08DC6437021B7B6FD"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/BSL-1.0.txt": {
+      "bytes": 1340,
+      "sha256": "3ABD6471B9A9A08D65CE771143F8E278BB4C1AEB10C1C2D476935A6B049653F5"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/CC0-1.0.txt": {
+      "bytes": 7048,
+      "sha256": "A2010F343487D3F7618AFFE54F789F5487602331C0A8D03F49E9A7C547CF0499"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/FTL.txt": {
+      "bytes": 6743,
+      "sha256": "08C135755DD589039470F1FDBB400DAAABAAA50D0B366D19CEBFF4D22986BAA1"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/GFDL-1.3-no-invariants-only.txt": {
+      "bytes": 22955,
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/GPL-2.0-only.txt": {
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/GPL-2.0-or-later.txt": {
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/GPL-3.0-only.txt": {
+      "bytes": 35147,
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/HPND.txt": {
+      "bytes": 1188,
+      "sha256": "67AC968431270291F5E9CD3ED76705E1169F57082EE102093B2543B28CEF63CF"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/IJG.txt": {
+      "bytes": 1815,
+      "sha256": "1CB448F5E2E6D3ACA60943F4EEE1A04675628DC0266A074A42BC1560EBC28D61"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Imlib2.txt": {
+      "bytes": 1986,
+      "sha256": "8846F2BABA1A7F4C36F7CA19A923A000D8A21AFA37CF0FE006F6CE88A6058A89"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/IPL-1.0.txt": {
+      "bytes": 11789,
+      "sha256": "D5328E672FB1BFF47EE18E890784541453380081CF3771BB7B3C06FC19C7D503"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/LGPL-3.0-only.txt": {
+      "bytes": 7651,
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/libpng-2.0.txt": {
+      "bytes": 5345,
+      "sha256": "7317E078E2D3B5D7BA5A6159E650945153262B44B76F6700F8E9EDB261C5143E"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Libpng.txt": {
+      "bytes": 4120,
+      "sha256": "58FE669792F9B4E0740BF75ECFE90B5326128BB2CE7E27E1C342ABD9DB4D8EA6"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt": {
+      "bytes": 1852,
+      "sha256": "0526625FCC746A42D3F19A0AB357D3DC8479FDBE3BFD168825498F50215C7A63"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/LicenseRef-ICC-License.txt": {
+      "bytes": 463,
+      "sha256": "9E34FF47B3A44814E183342E7E198D127A6740E29D20E8381FBA7688DAFC79DD"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/LicenseRef-Lcs-Telegraphics.txt": {
+      "bytes": 139,
+      "sha256": "C10225EBBD5191BFDD761B0D7752C785F2453AB665D6C454473FB12D254668AA"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/LicenseRef-Qt-Commercial.txt": {
+      "bytes": 462,
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/LicenseRef-SHA1-Public-Domain.txt": {
+      "bytes": 144,
+      "sha256": "65D86B8EC6B1CD8B8F6E64FD8710274BA00D6A3C520E00DFDCD1C3D2071F3305"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Linux-syscall-note.txt": {
+      "bytes": 624,
+      "sha256": "3F9E477523FEBAB58DE8B716CCFBCF02E6EF1C8E7728953905E8558637ABE2A9"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/MIT-Khronos-old.txt": {
+      "bytes": 1306,
+      "sha256": "3C58021633974F9ED3C3D445A374240A5244FD039628F4D7F6F3E674BC8E6694"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/MIT-open-group.txt": {
+      "bytes": 897,
+      "sha256": "C55D2AB72D8A4F9E9CD8FBD1379268E575E8CFA16874AFFA5899B75A6D754514"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/MIT.txt": {
+      "bytes": 1111,
+      "sha256": "D040359701C01996A017D5C515678929CD1B0625E64CB86DB44025FBB6CDF1FC"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/MPL-2.0.txt": {
+      "bytes": 16726,
+      "sha256": "3F3D9E0024B1921B067D6F7F88DEB4A60CBE7A78E76C64E3F1D7FC3B779B9D04"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Qt-GPL-exception-1.0.txt": {
+      "bytes": 965,
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/SPL-1.0.txt": {
+      "bytes": 23547,
+      "sha256": "F58F2F30909982445F97F1A61667261920A7CAEAB21EF5BEA1B740F5B144D141"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Unicode-3.0.txt": {
+      "bytes": 1995,
+      "sha256": "80BB6294022D8764ADB36A9D65EBB6BD94EFB1865918A71E31E6C247607D7634"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/X11.txt": {
+      "bytes": 1338,
+      "sha256": "E2936C6509784B4F0EC27BAC74182393866FAD9422B29A70E085FF14ABA87193"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Xerox.txt": {
+      "bytes": 965,
+      "sha256": "B6BC52205D01E10CF43DBB7B8AEC06DCAA3B21D1486E7C9C0BEC329EE8244D8D"
+    },
+    "packaging/upstream_notices/qtbase/LICENSES/Zlib.txt": {
+      "bytes": 1465,
+      "sha256": "D7E3139972874DC8ABDBBFCE27EC1E6F942B28279DD7D27453630A8B4610E080"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/android/LICENSE": {
+      "bytes": 525,
+      "sha256": "4A51CF7F724F51BEDB5FA4F9583A2762F1DB8D05E43A577E2487C7AAB2FDCE18"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/android/qt_attribution.json": {
+      "bytes": 373,
+      "sha256": "120710D661892CEB44A94556C56998795372334674C79710947282E8279EF415"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/blake2/COPYING": {
+      "bytes": 17914,
+      "sha256": "4103F471877ED0BAE500752C5FCD7ECCA409D4A4A8DC2AD40437DABA60F1A2BC"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/blake2/qt_attribution.json": {
+      "bytes": 926,
+      "sha256": "BAB552307BDD03ED9A4CF7F8F1397C3D18D4DBEE19EE576033284104785245BE"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/D3D12MemoryAllocator/LICENSE.txt": {
+      "bytes": 1099,
+      "sha256": "1B3941C52B26D42C510AFBDF205A8B96A6D64F5A7B8EBFF0287979FD91DFD52F"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/D3D12MemoryAllocator/qt_attribution.json": {
+      "bytes": 727,
+      "sha256": "182D7E5ED90DC592B01A50635C85F4039CA6F25F88EC4700B08FAF6F07FDA09E"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/double-conversion/LICENSE": {
+      "bytes": 1527,
+      "sha256": "4AF93C12062C58058378DE2397DC1C92BBFF9DDFB1D583A01C84127557CE97CA"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/double-conversion/qt_attribution.json": {
+      "bytes": 771,
+      "sha256": "B68E633437CCE59DEC970776F5C4D3B9FC39C5D9EDAEC03E8894591A6721D1ED"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/easing/LICENSE": {
+      "bytes": 1505,
+      "sha256": "92FAC99458F1754B73EDF50F9C9983E0EFAA06AD96E2AFD5E538C79F45B4B191"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/easing/qt_attribution.json": {
+      "bytes": 471,
+      "sha256": "77D67A1DB5882BB0B9A1278B014885BEE45A4C059D1DA9F835B6DA5BC4B9C93D"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/forkfd/LICENSE": {
+      "bytes": 1148,
+      "sha256": "D0D683AE18E78FBEF90EB41168FB781920DA2D12BF80704490F0882915C18AE0"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/forkfd/qt_attribution.json": {
+      "bytes": 493,
+      "sha256": "525FD890017A3966F542DA42A9FF0CA2A0D71BC45F80A4871DE3E0BD0F612612"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/BDF-LICENSE.txt": {
+      "bytes": 2305,
+      "sha256": "E4E792F29E66750F2E410FD7B50A567652C180F6EE15E1A4DFA0BB5CDE524537"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/LICENSE.txt": {
+      "bytes": 26234,
+      "sha256": "BF543CDDA11864477B8D2CA2AA9AFC2AAA8F9133461B4D962ED6EC73646256A1"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/PCF-LICENSE.txt": {
+      "bytes": 2218,
+      "sha256": "6938597BFDECA0DB191A8F9EDE52EAF2482C2C71A0094C084747A1235F9958FE"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/qt_attribution.json": {
+      "bytes": 5328,
+      "sha256": "3BB2EABC9379310A420EC2461E85A3224396CF8BA15FD53591D770CA16715553"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/src/tools/no-copyright": {
+      "bytes": 1282,
+      "sha256": "3E2C8DB4E09E12E9A138BA7BA8C0B762EFF36802C6C1273D73AC049D4949A298"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/src/tools/update-copyright": {
+      "bytes": 383,
+      "sha256": "AE5B05F1D3F5235EB91CE41518BE95022443F68BCE5D200B6E1CC1FB57A5017E"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/src/tools/update-copyright-year": {
+      "bytes": 4272,
+      "sha256": "1043AB2F00DC9B79E90F913F3CC8C9E45759F12B4676D8188A6BE81A578612C1"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/freetype/ZLIB-LICENSE.txt": {
+      "bytes": 962,
+      "sha256": "2B1F5D615382A151AF3EB71462AD17D89E2EFEE8FA7664058D35D3D9237EBB19"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/gradle/LICENSE": {
+      "bytes": 23622,
+      "sha256": "9536D88EA948603D18E232A13F5958D67807CD80828036B082BFF171D2CF0703"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/gradle/qt_attribution.json": {
+      "bytes": 581,
+      "sha256": "D8950522E452E35C44D3660DDEFFF2F28F2DD342B500A4ACB8FE1B9997627849"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/harfbuzz-ng/COPYING": {
+      "bytes": 1971,
+      "sha256": "BA8F810F2455C2F08E2D56BB49B72F37FCF68F1F4FADE38977CFD7372050AD64"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/harfbuzz-ng/qt_attribution.json": {
+      "bytes": 1646,
+      "sha256": "C998C9784A4A0021C2F68632A9E8CD5589DBC7F7336FEEB156A4240B6B32D718"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/iaccessible2/LICENSE": {
+      "bytes": 1668,
+      "sha256": "603FB8E9A443C95CB56C0E458A0AD17FDCADFC5BBB7E580D2199EE0145882746"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/iaccessible2/qt_attribution.json": {
+      "bytes": 932,
+      "sha256": "FC3B6C3ACEEB15B92302E1375AA8F48A692B39CE5250458E88AE137CEF2922C6"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/icc/LICENSE.txt": {
+      "bytes": 463,
+      "sha256": "9E34FF47B3A44814E183342E7E198D127A6740E29D20E8381FBA7688DAFC79DD"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/icc/qt_attribution.json": {
+      "bytes": 775,
+      "sha256": "509DA9BD2B3F769C730AA4627B1080D65F39B0ECD4130111C9E1122E13CD35B5"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libjpeg/COPYRIGHT.txt": {
+      "bytes": 580,
+      "sha256": "F26A2C0B6C1AB7E40444DE31CC5B112A534CC589D6FD9B93620054E9692B81C6"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libjpeg/ijg-license.txt": {
+      "bytes": 1815,
+      "sha256": "1CB448F5E2E6D3ACA60943F4EEE1A04675628DC0266A074A42BC1560EBC28D61"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libjpeg/LICENSE": {
+      "bytes": 5620,
+      "sha256": "96F5B328ADBB78EEAAEC6980D73FD558CB1E4D62560ED615646BC3CF5E532430"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libjpeg/qt_attribution.json": {
+      "bytes": 859,
+      "sha256": "874587F89655D70E9926048B2C9F4F2C15F8795DC64E4A492F753CEE06ED6432"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libpng/LICENSE": {
+      "bytes": 5345,
+      "sha256": "16D9DAAAFBF63A31A5BDC91D4600972548FEF5AAA1244202393288DBD079C49A"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libpng/qt_attribution.json": {
+      "bytes": 1763,
+      "sha256": "2970938574023E02B60B5B7C75D21E11B7E4476CDC2C1A5386B01AC5BC678943"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libpsl/PSL-LICENSE.txt": {
+      "bytes": 16726,
+      "sha256": "3F3D9E0024B1921B067D6F7F88DEB4A60CBE7A78E76C64E3F1D7FC3B779B9D04"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libpsl/qt_attribution.json": {
+      "bytes": 2498,
+      "sha256": "52D2286E673CDC88DD0B02DB46352F994DAC2C359E4632644DC4D595CF144CE7"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/libpsl/src/LICENSE.chromium": {
+      "bytes": 1664,
+      "sha256": "1D7F52747A9169751CDF2641A8299C0098E9ECDF9429296FFD55BDB14C9ED5B3"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/md4/qt_attribution.json": {
+      "bytes": 574,
+      "sha256": "34BDA63A2FCC23C83F2E5364CCD394553B4BAA505B1F79DED9CC2161C56A9B4C"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/md4c/LICENSE.md": {
+      "bytes": 1096,
+      "sha256": "D30937367D5413E7EAA218B1640B8946FF76FD34D97152F6979FD96169D5D0FC"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/md4c/qt_attribution.json": {
+      "bytes": 673,
+      "sha256": "59098B9262AC268E73495CB1B1603B5C899D5C532DB6CA96E69FFAC7062445F5"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/md5/qt_attribution.json": {
+      "bytes": 446,
+      "sha256": "20B0F1B17CCD1BD5E8D763B1CDCA4B095B8F0C037644B5EE18154536B7D8425E"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/pcre2/LICENCE-SLJIT": {
+      "bytes": 1444,
+      "sha256": "5F216505C0F6EA3273CAEC89E766EEF93CDEB7BBB0C429F9360116D7C938FEEB"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/pcre2/LICENCE.md": {
+      "bytes": 3867,
+      "sha256": "9CF7AC6976099A1D856826D3EF1B093BD6B84489DC6100628AC79E740CF9885A"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/pcre2/qt_attribution.json": {
+      "bytes": 1915,
+      "sha256": "CB7AE8B37A3E8E1D2A20FBE44FC5306ED5CDA404035A667FED56F7139636048E"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/pixman/LICENSE": {
+      "bytes": 1092,
+      "sha256": "942C4F2A80394D3F53599B8382E9F27349B95C45D92B69B84F26D404F4DD74A5"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/pixman/qt_attribution.json": {
+      "bytes": 597,
+      "sha256": "F1DC159B63BF84A4C9C367E8FF79AA748B63F5FC622D5080C0A7DDD98DDC7AC7"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/rfc6234/LICENSE": {
+      "bytes": 1568,
+      "sha256": "7CCEBD514AAABC86192F957D773CEBF06577C12FE9F25ECD419C6CAC5DA7A14C"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/rfc6234/qt_attribution.json": {
+      "bytes": 660,
+      "sha256": "FA24413BDC5015FC7FC84297FA17D4C8A598F8F7C76B9495A6E6B26A77B4A324"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/sha1/qt_attribution.json": {
+      "bytes": 618,
+      "sha256": "53CAB2C771F7F7FFBF6A58FF759E5846B746E91D98DFE467D5145EDF8CD7D306"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/sha3/BRG_ENDIAN_LICENSE": {
+      "bytes": 645,
+      "sha256": "2FED6F252CA4A7E813811DE3CD3CD08183EDD4138BDEE909410EF6EEE394E82C"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/sha3/CC0_LICENSE": {
+      "bytes": 7013,
+      "sha256": "1F2786E2C5BEFEB4DCBA6638DB6528BF96EF5D2CF24BC85AB5A81EF00ABEF59D"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/sha3/qt_attribution.json": {
+      "bytes": 2357,
+      "sha256": "C14F8C923BDDE00E14D52AC826475F29C690B0615337E641D818D3243EB26A87"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/siphash/qt_attribution.json": {
+      "bytes": 793,
+      "sha256": "8614947DFC0CA1D21AAD2F88B4400598262AB8C08AA87C4F7ACC0C2DE6E5619E"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/sqlite/qt_attribution.json": {
+      "bytes": 799,
+      "sha256": "0BB4312DFE1E3896713954ACCEDB0ED50453268F0983A7C10FA5DF038D2B7E89"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/tinycbor/LICENSE": {
+      "bytes": 1074,
+      "sha256": "3C6BA0B5BFA7830505301FFB336A17B0748E0D61C4D34216E9DC98F10E40395E"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/tinycbor/qt_attribution.json": {
+      "bytes": 691,
+      "sha256": "3CD7042C743868AA67D792B85CD1E113B02CFA5273EA727A5A40915C9163B377"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/VulkanMemoryAllocator/LICENSE.txt": {
+      "bytes": 1099,
+      "sha256": "846D97C8B74CCAA92B9AD031140A04363B3B3985F318094552F297B8BDA1C68E"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/VulkanMemoryAllocator/qt_attribution.json": {
+      "bytes": 699,
+      "sha256": "D00A867E3DF29E108BD60194DCAD6DA8D9EA89D185C8AFD93A00429628156346"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/wasm/DEJAVU-LICENSE": {
+      "bytes": 8816,
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/wasm/qt_attribution.json": {
+      "bytes": 730,
+      "sha256": "2019D37665BFB2CE7D4931D0BDF7427EA178919399CF37C0FEF14A229144936B"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/wintab/qt_attribution.json": {
+      "bytes": 602,
+      "sha256": "B879EA91B719531D45E1CFE33D2241D060A9260200BD91A09ADA074B16063F9C"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/xcb/LICENSE": {
+      "bytes": 1246,
+      "sha256": "82775191BC05F85B40404D77BB69B1EDEAEB4033F48387E9E5EAB4DD67F5D6F1"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/xcb/qt_attribution.json": {
+      "bytes": 825,
+      "sha256": "8BAE8861957BC0168D586D24DA6E8E93EDCEB11796811C5F614D211F4674D437"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/zlib/LICENSE": {
+      "bytes": 1465,
+      "sha256": "D7E3139972874DC8ABDBBFCE27EC1E6F942B28279DD7D27453630A8B4610E080"
+    },
+    "packaging/upstream_notices/qtbase/src/3rdparty/zlib/qt_attribution.json": {
+      "bytes": 731,
+      "sha256": "6A37EAF51D8EBB7BD19E01A9A2334DA8557409ACB520EF6D1813C6D742771030"
+    },
+    "packaging/upstream_notices/qtbase/src/corelib/kernel/QEVENTDISPATCHER_CF_LICENSE.txt": {
+      "bytes": 1501,
+      "sha256": "E9E5B9F66D21C0E88A4179525AB39CD8D7EAC9AF78A8404F322C32B0874783D5"
+    },
+    "packaging/upstream_notices/qtbase/src/corelib/kernel/qt_attribution.json": {
+      "bytes": 564,
+      "sha256": "35639D420FB5AAC3E5A702269E3CB8E9E18F5145DD36003EA6DEE45ED4AF4E2D"
+    },
+    "packaging/upstream_notices/qtbase/src/corelib/mimetypes/3rdparty/qt_attribution.json": {
+      "bytes": 1383,
+      "sha256": "45B454443CC0D5450FDE18B76B555700DBFF0937B925B8482290950330C9B370"
+    },
+    "packaging/upstream_notices/qtbase/src/corelib/text/qt_attribution.json": {
+      "bytes": 2058,
+      "sha256": "6A2AC10D23F98E987A7176281CC1AF6DA01F5289A7B41A473E20F023A952C0E4"
+    },
+    "packaging/upstream_notices/qtbase/src/dbus/LIBDBUS-1-LICENSE.txt": {
+      "bytes": 27248,
+      "sha256": "AD90AA08BB1A9B7056AA51E2E215B36630855457CDE5DFFD36AA0FAA7B169F24"
+    },
+    "packaging/upstream_notices/qtbase/src/dbus/qt_attribution.json": {
+      "bytes": 937,
+      "sha256": "C03E804FB402AD8CE4C2268CF2F820493A1C5C06D624FB61A24EAA0BC2FCB66D"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/opengl/KHRONOS_LICENSE.txt": {
+      "bytes": 1084,
+      "sha256": "2E484F3C26FF5008C704A3CA9DD809D43F24A004A1ABB6C202660FBFF0D19715"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/opengl/qt_attribution.json": {
+      "bytes": 1526,
+      "sha256": "50FCB16F440DF6E7EA2778DBC81CC8CAEB0DBD770DAA4EFDDD125ADACAA6CF36"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/painting/QIMAGETRANSFORM_LICENSE.txt": {
+      "bytes": 3004,
+      "sha256": "46B3CBFA2F2946B93291506351E9BE1DD0A28D2A53260F5AA488ABD36FBECA9D"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/painting/qt_attribution.json": {
+      "bytes": 2256,
+      "sha256": "6827F1FEC09E4A3C89381F0724C998243E412A56A47735AB5B899D470FB47DDF"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/painting/XCONSORTIUM_LICENSE.txt": {
+      "bytes": 2294,
+      "sha256": "A216B01291EB38FC1AF93CFCCF1FC67B48D9923612E517C2A695E95B3F03C22C"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/rhi/MiniEngine_LICENSE.txt": {
+      "bytes": 1077,
+      "sha256": "CF248820BF1178370BB4F1670A59F8748D46BC96D0F64080CD631511C6046409"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/rhi/qt_attribution.json": {
+      "bytes": 782,
+      "sha256": "2F362DFBFB7D8F4B3998D3ADDE8D2F2124DF588E6A48F177E335679FDED585ED"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/text/AGLFN_LICENSE.txt": {
+      "bytes": 1425,
+      "sha256": "40818155548FF41C67D3A40EDF355E9658992B292C227F4C1147425CEDC746C6"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/text/qt_attribution.json": {
+      "bytes": 807,
+      "sha256": "CC5C2EEDAE7D50DF84088F1F73A7E3B4720EB3DE07019E0DDCC97AF74E631671"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/vulkan/LICENSE.txt": {
+      "bytes": 11473,
+      "sha256": "5F618873B0CDD1E84C611C5529212C2524BFC887BDFD7D1F3B568BAD3C649612"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/vulkan/licenseheader.h.in": {
+      "bytes": 144,
+      "sha256": "6975A5D3DD6BB9E5FA9058F5D8739B68CA7D635FCFAE8BEC21949EC4331813EC"
+    },
+    "packaging/upstream_notices/qtbase/src/gui/vulkan/qt_attribution.json": {
+      "bytes": 801,
+      "sha256": "4DCB0C227CE6D6079C413E226D67F19A477338AF1945DE4D7C841BA992CF0505"
+    },
+    "packaging/upstream_notices/qtbase/src/plugins/platforms/cocoa/COCOA_LICENSE.txt": {
+      "bytes": 1501,
+      "sha256": "E9E5B9F66D21C0E88A4179525AB39CD8D7EAC9AF78A8404F322C32B0874783D5"
+    },
+    "packaging/upstream_notices/qtbase/src/plugins/platforms/cocoa/qt_attribution.json": {
+      "bytes": 720,
+      "sha256": "15D905306337542288D20AAC31C3CFFBCF28A488DBA6236EAB17CC8B86F51975"
+    },
+    "packaging/upstream_notices/qtbase/src/testinternal/3rdparty/cmake/Copyright.txt": {
+      "bytes": 5477,
+      "sha256": "0676E30827684487AA0EA8F72F01E9460A6320FA34A2888DF0AD1DD3E8A06EB8"
+    },
+    "packaging/upstream_notices/qtbase/src/testinternal/3rdparty/cmake/qt_attribution.json": {
+      "bytes": 515,
+      "sha256": "F194EA33CF9B0D44615A6FA9EB4D45E7796B50CB0A88CDADF5D9B15745BF52F0"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/catch2/LICENSE.txt": {
+      "bytes": 1338,
+      "sha256": "C9BFF75738922193E67FA726FA225535870D2AA1059F91452C411736284AD566"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/catch2/qt_attribution.json": {
+      "bytes": 821,
+      "sha256": "9D48FA7B86E9B0412B699E0411815766914478592DA5BBB614A45443C14504B0"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/cycle/LICENSE.txt": {
+      "bytes": 1023,
+      "sha256": "CB5AEDB296C5246D1F22E9099F925A65146F9F0D6B4EEBBA97FD27A6CDBBAB2D"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/cycle/qt_attribution.json": {
+      "bytes": 1176,
+      "sha256": "A3FF23399B7ECE1A0C6A9696E4F8C671A495F92A74C9C53EA5B66F27BD56B056"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/linux/LICENSE.txt": {
+      "bytes": 18458,
+      "sha256": "ED71CFCA021790F74094E9810F42E31288E7F43CF00C8D9AC8D6F904124BD815"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/linux/qt_attribution.json": {
+      "bytes": 1678,
+      "sha256": "44299F5C08474790C164E73894B81B650463F9E40121041CEFDEEBD9B5EB734C"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/valgrind/LICENSE.txt": {
+      "bytes": 1667,
+      "sha256": "EC72EEBD6326165156787DA828CAAA18386489387AEFAA073C9BD40B8B2A400E"
+    },
+    "packaging/upstream_notices/qtbase/src/testlib/3rdparty/valgrind/qt_attribution.json": {
+      "bytes": 979,
+      "sha256": "9FAB633484B2C78F3FDC789F0E9DFDA493B425978D2164C06BF86F733BD878BF"
+    },
+    "packaging/upstream_notices/qtbase/src/tools/moc/util/licenseheader.cpp.in": {
+      "bytes": 138,
+      "sha256": "331466D1E3F460EF7F3FE1FCD926307B0594311A2ED286B24EA649C82CC36CC5"
+    },
+    "packaging/upstream_notices/qtbase/src/widgets/doc/images/licensewizard-flow.png": {
+      "bytes": 235836,
+      "sha256": "7A0E08A4499DA689B635D1C2582CEB86D4A76B94940F2FAAE733AF6E97621C43"
+    },
+    "packaging/upstream_notices/qtbase/tests/auto/corelib/io/qfile/forCopying.txt": {
+      "bytes": 26,
+      "sha256": "D866B47D243EAB6E47F6EFDC7DFADAF6E3E54DFED6A937850DA0AF3915644688"
+    },
+    "packaging/upstream_notices/qtbase/tests/auto/corelib/serialization/qxmlstream/XML-Test-Suite-LICENSE.txt": {
+      "bytes": 2813,
+      "sha256": "B2ACE830C68A486D548834B9A93806D064A3EB041F603EC6368034D060FDF46A"
+    },
+    "packaging/upstream_notices/qtbase/tests/manual/examples/widgets/tools/settingseditor/inifiles/licensepage.ini": {
+      "bytes": 783,
+      "sha256": "1948DABAA56EFECD40E55CE1EBC48AF807422218408FA69B6C07BFECADDF6EA0"
+    },
+    "packaging/upstream_notices/qtbase/tests/manual/rhi/shared/imgui/fonts/LICENSE.txt": {
+      "bytes": 11358,
+      "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30"
+    },
+    "packaging/upstream_notices/qtbase/tests/manual/rhi/shared/imgui/imgui/LICENSE.txt": {
+      "bytes": 1083,
+      "sha256": "1B64B23B817E547982A86984685F5E9337695CAA542753FB6F08D502D5208E38"
+    },
+    "packaging/upstream_notices/qtbase/util/gradientgen/qt_attribution.json": {
+      "bytes": 596,
+      "sha256": "A25F10E47D2B7D9369486D94602AD01B60382B9F032CBBD6F465D87328D8B0E0"
+    },
+    "packaging/upstream_notices/qtbase/util/gradientgen/WEBGRADIENTS_LICENSE.txt": {
+      "bytes": 1062,
+      "sha256": "9BE732E45B638C74F9C0E5248541DD54DC7E8E9A5545DF96B5C4B7C9AC0C68BA"
+    },
+    "packaging/upstream_notices/qtsvg/.QT-ENTERPRISE-LICENSE-AGREEMENT": {
+      "bytes": 86046,
+      "sha256": "8D01D6E9CC613B9F74BB3BF7EE0BBD68144A9DE8504F2B3827B2B25882E855BB"
+    },
+    "packaging/upstream_notices/qtsvg/licenseRule.json": {
+      "bytes": 3734,
+      "sha256": "8CBDB36BCCB167FCC98964D1BD74EAEA37EE9CCFD927F41559B77DBC5150E29B"
+    },
+    "packaging/upstream_notices/qtsvg/LICENSES/BSD-3-Clause.txt": {
+      "bytes": 1469,
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE"
+    },
+    "packaging/upstream_notices/qtsvg/LICENSES/GFDL-1.3-no-invariants-only.txt": {
+      "bytes": 22955,
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4"
+    },
+    "packaging/upstream_notices/qtsvg/LICENSES/GPL-2.0-only.txt": {
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    "packaging/upstream_notices/qtsvg/LICENSES/GPL-3.0-only.txt": {
+      "bytes": 35147,
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    "packaging/upstream_notices/qtsvg/LICENSES/LGPL-3.0-only.txt": {
+      "bytes": 7651,
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    "packaging/upstream_notices/qtsvg/LICENSES/LicenseRef-Qt-Commercial.txt": {
+      "bytes": 462,
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700"
+    },
+    "packaging/upstream_notices/qtsvg/LICENSES/Qt-GPL-exception-1.0.txt": {
+      "bytes": 965,
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2"
+    },
+    "packaging/upstream_notices/qtsvg/src/svg/qt_attribution.json": {
+      "bytes": 464,
+      "sha256": "89C0B12B30CE72D2CDA2938875AEC15BD47C6C7D8D05F41DB9840F94832CCFDD"
+    },
+    "packaging/upstream_notices/qtsvg/src/svg/XSVG_LICENSE.txt": {
+      "bytes": 1185,
+      "sha256": "3A946598A9F674D44DF764279CA0B85B5D6FABA08F3BC75D8E0FCF6CD729A9BD"
+    },
+    "packaging/upstream_notices/qtsvg/tests/baseline/data/svg_12_testsuite/LICENSE.txt": {
+      "bytes": 948,
+      "sha256": "635F33FBB460F1731DAD45D79DBF2301255F63296D77A064C000F92E2CC79173"
+    },
+    "packaging/upstream_notices/SOURCES.json": {
+      "bytes": 68199,
+      "sha256": "2295266D69A731B3C81A22C19715479BE737D1D60FD98BADC650DAA268E94C8D"
+    },
+    "packaging/软件许可与资料来源说明.txt": {
+      "bytes": 1462,
+      "sha256": "9CFFB6AA1A8D276F7654E51B99901FCEEBFE0F5821DFD4793C44FE2258152F9D"
+    },
+    "pyproject.toml": {
+      "bytes": 190,
+      "sha256": "F08A697A2E7406422CB364259652CD63E0DADB083B299E393B92F303890B63DD"
+    },
+    "README.md": {
+      "bytes": 7808,
+      "sha256": "1E2F2FCA16C7229F903BEBB74E4B912A7B5591759CE8B4F7BB4B0E4537920849"
+    },
+    "requirements.in": {
+      "bytes": 256,
+      "sha256": "AF0EE5B9925DDABB5938BFC9A8B42DEB915477F51BE55850A43568540FC67E69"
+    },
+    "requirements.lock.txt": {
+      "bytes": 503,
+      "sha256": "504441575AE3E82528AE267762A9646320C42BB5EF9DBD6572A87178E57FF9A7"
+    },
+    "run_app.py": {
+      "bytes": 326,
+      "sha256": "F2E8238F5AA859FCE4C5984D39AF720BE8A7E0A7A9C6ED83FFC077B4FA3C9E9A"
+    },
+    "scripts/bootstrap.ps1": {
+      "bytes": 2194,
+      "sha256": "BE5D131B6F8D26A80A355AB0F24D0CE3520B807F64D2E09132E19CD217243BBA"
+    },
+    "scripts/build_release.ps1": {
+      "bytes": 6928,
+      "sha256": "654AC5438C842809EFCC8F37846CC89CFA98FD16803BA2A48FC548E77A6D846D"
+    },
+    "scripts/collect_notices.py": {
+      "bytes": 4383,
+      "sha256": "F8D3A009F4AA123E1A195739102BB905E460D61C28529CD25650F028418C44A9"
+    },
+    "scripts/fetch_license_sources.py": {
+      "bytes": 5637,
+      "sha256": "853B5F107C4A4B52283312DEA91AA592CD59E0A6057F55B15A8CECC7375F6B73"
+    },
+    "scripts/read_database_evidence.py": {
+      "bytes": 1549,
+      "sha256": "A5F3657229D20D95C5CC3D2FFE4B41B6EEF1BFCF36550D8428589B6E3FCEB5F6"
+    },
+    "scripts/render_user_guide.py": {
+      "bytes": 2678,
+      "sha256": "E245BDF1C0D0EC209748F7B9E7FC0A0AC3F690234B604ACFD9A908B5926902D7"
+    },
+    "scripts/run.ps1": {
+      "bytes": 380,
+      "sha256": "6B4F7362F3BF9C34F8B2BD29A315F92581AE68B54B10E3728D5A8BC0824F2BBC"
+    },
+    "scripts/verify.ps1": {
+      "bytes": 1295,
+      "sha256": "9E7557146A0E8BEBBE2504EDDB36227ADC2F7AF33A887854ED23EC0CF46B3726"
+    },
+    "scripts/verify_installation.py": {
+      "bytes": 9217,
+      "sha256": "DCE9F4B6BD0B38FE4A7E6E27FAE5035F0464D40B82D77074001D5B40C0A95DF3"
+    },
+    "tests/analyze_memory_trial.py": {
+      "bytes": 11338,
+      "sha256": "9E93CED8B3F2F6C61239B69137B4EE78BF5227A18D797BB0181F043CA4CF7B01"
+    },
+    "tests/device_fixtures.py": {
+      "bytes": 5169,
+      "sha256": "757491667E8D8E4F2B831E4B7C8F4A479AF86A970B3E399914E6C5A179E14F83"
+    },
+    "tests/run_memory_trial.py": {
+      "bytes": 16256,
+      "sha256": "76FBE88D0609204003B61F6A3170DAB6ED4826A30665D5D5226938487A6C96F0"
+    },
+    "tests/run_pipeline_trial.py": {
+      "bytes": 6183,
+      "sha256": "54470A2CFCA0CF51B6A9D2ED8DBCED65137FBB14BD12119121A7A54BAF1F5A1F"
+    },
+    "tests/test_alarm_intervals_revision.py": {
+      "bytes": 5510,
+      "sha256": "C48FC256232B160817A65288F2A89288C18EB9C76628CF9E5342EF1AAE19678A"
+    },
+    "tests/test_alarm_live.py": {
+      "bytes": 10254,
+      "sha256": "A1A7BB9646B10720139D9BF00E99BBE71AD513A4C5545A4D767F5F4F4076AB11"
+    },
+    "tests/test_alerts.py": {
+      "bytes": 5177,
+      "sha256": "4BD7CC36F88D6873DBA43692DFC02ACD56C1A22100DEF30F754091E038E7B276"
+    },
+    "tests/test_comprehensive_revision.py": {
+      "bytes": 10647,
+      "sha256": "360F58520F16354200CA4DEAF2F8E0E9D81BA73258304059D4FFE28ADB2EDC96"
+    },
+    "tests/test_config_workers.py": {
+      "bytes": 5140,
+      "sha256": "23311D24C4B580F76049CEF8D9F7B8965D95FABADDA64724680FB67D9D1E25DD"
+    },
+    "tests/test_connection_status_revision.py": {
+      "bytes": 5007,
+      "sha256": "8BB17FE7C28D0852EFD660E0E5DA6B8A677B4903E505F75EA859EC42D707BCA9"
+    },
+    "tests/test_controller.py": {
+      "bytes": 9768,
+      "sha256": "414DC26838DE2A7D3EBCB3AE95AF33ABC0B8080E008ABF925C6630609B9CF638"
+    },
+    "tests/test_dialog_memory_revision.py": {
+      "bytes": 1399,
+      "sha256": "D85A7120E581B4D8D84D8D57032B687A9512D3D92E7B2B4CC216DA2DAFC76166"
+    },
+    "tests/test_distribution_notices.py": {
+      "bytes": 3183,
+      "sha256": "EDF1223D16E41A7F58B1ECDB350B63DED64FCEAFB990A7AA3889C818A2FC9A41"
+    },
+    "tests/test_engine.py": {
+      "bytes": 12502,
+      "sha256": "2720A57ECC7823EEAEA27E038D545DF54337A044D3F862EC3E62F90CE864650C"
+    },
+    "tests/test_final_failure_diagnostics.py": {
+      "bytes": 8118,
+      "sha256": "FAC36ED28DFE5C1B33E4ABC2E5A2AA019E16E23772B9ED796A3D5A8F787B1837"
+    },
+    "tests/test_history_ordering.py": {
+      "bytes": 943,
+      "sha256": "B8782ADF05579DF0EA6138F71BC027C5D631657F40D111E5E4502F9C6A34DF25"
+    },
+    "tests/test_measurement_indicators.py": {
+      "bytes": 3732,
+      "sha256": "E0A0971DACA93BF1C72A9B149CBCE0675C29B13FE9FDDCF8DAB20050D783DEEC"
+    },
+    "tests/test_pulse.py": {
+      "bytes": 7849,
+      "sha256": "450F06418EC4C3794601CAAB5BC7068F77101FC871148F5DCFAC08DBFA23BDD5"
+    },
+    "tests/test_pulse_core.py": {
+      "bytes": 6668,
+      "sha256": "3C62D183FF4B24BC30FF7414D0CEE0C248F341FD2CC51A50336B315C21612868"
+    },
+    "tests/test_pulse_integration.py": {
+      "bytes": 5856,
+      "sha256": "79EC24072AF4B647920FD757E50092E325B9A72C45C98A95D665FC1E6EABF21A"
+    },
+    "tests/test_pulse_storage.py": {
+      "bytes": 15784,
+      "sha256": "8190003C3061BB0DD295D4530BD4CE8AEAFB9D45CF442104FE59BDF84B9E7C7E"
+    },
+    "tests/test_pulse_transport.py": {
+      "bytes": 4988,
+      "sha256": "3435E4B29E48573396FA4463A8C2B8C1D4572B8D0DCAD7DA5C9C7F55A591BA83"
+    },
+    "tests/test_pulse_ui.py": {
+      "bytes": 8783,
+      "sha256": "F545C591EE60B2559BD63380108BCFE6052F8175031358A9DF129B35F55636E8"
+    },
+    "tests/test_revision_v02.py": {
+      "bytes": 5799,
+      "sha256": "C58D52221CCC3A2B0B59B72196E29DFC20C5370C44B50FE6AFCBF31F06067474"
+    },
+    "tests/test_revision_v021.py": {
+      "bytes": 2016,
+      "sha256": "D704B312531270EF7711E3577926A78EACE16033C6DC4B3977663E364C94F1FE"
+    },
+    "tests/test_signal_trial.py": {
+      "bytes": 2273,
+      "sha256": "7DB28787327DC880732441956F821877A55E95832E8E30430D1247E749E1D88B"
+    },
+    "tests/test_startup_errors.py": {
+      "bytes": 1293,
+      "sha256": "B907B1852AAEAA03C672D2B92054C44A03DE519679A3567D323EECDCA9420914"
+    },
+    "tests/test_stop_responsiveness.py": {
+      "bytes": 7707,
+      "sha256": "618E26D312672FE79BDA1299640368E45C72240D096AF7C304D5DA105718A13D"
+    },
+    "tests/test_storage.py": {
+      "bytes": 13690,
+      "sha256": "B119C45EFB4D3D48A3B42A2620350005197A9FF236968E873CB482CAE1BD5007"
+    },
+    "tests/test_timing_history_revision.py": {
+      "bytes": 10618,
+      "sha256": "30E63AF31735FC103F0C5B9AA1743CE50E7CCF7FFF4093DC6A8DC6506EB853DD"
+    },
+    "tests/test_ui.py": {
+      "bytes": 11954,
+      "sha256": "E73BC0FD9839D9C2B80BBDB24BBAF38C7D9774FA3191A2A41CC2723295DD0A7D"
+    },
+    "tests/test_waiting_indicators.py": {
+      "bytes": 1060,
+      "sha256": "23C4C7495C67BA59D94582F149115141E556929FE0B15F82881751D969B6ECE4"
+    }
+  }
+}

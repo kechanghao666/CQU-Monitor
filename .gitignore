@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+release/
+artifacts/
+tools/
+wheelhouse/
+data/
+*.db-wal
+*.db-shm
+*.sqlite3-wal
+*.sqlite3-shm

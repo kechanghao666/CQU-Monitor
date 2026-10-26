@@ -1,0 +1,36 @@
+重庆大学电解水制氢系统 — 第三方运行库维护说明
+
+本程序使用Python 3.11、Qt for Python/PySide6 6.8.3及Qt 6.8.3。
+PySide6的METADATA列出的开源许可为LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only。
+upstream/qtbase/LICENSES包含LGPLv3、GPLv3等完整许可；pyside-setup和qtsvg目录
+保留对应6.8.3源码包内的许可、版权和第三方归属文件。该资料是保守源码树超集，
+可能包含本程序未使用的组件，不表示所有源码树组件都被装入发行包。
+原wheel中的LicenseRef-Qt-Commercial.txt仅作为上游原始文件保留，
+不表示本程序已购买商业Qt许可，也不能替代所附开源许可全文。
+pyserial 3.5完整BSD许可见upstream/pyserial/LICENSE.txt；Python完整许可见Python/LICENSE.txt，
+其随附第三方组件（含Python自带OpenSSL3.0.13等）许可见Python/第三方许可.html。
+PyInstaller目录保留构建器与所分发bootloader的许可及分发例外，其余依赖按各目录许可使用。
+
+Qt运行库动态位于程序的_internal/PySide6目录，插件位于其plugins子目录。
+维护或研究修改版Qt时，应先正常退出程序，备份整个安装目录和data，再在独立副本中
+替换相应Qt DLL、PySide6绑定及插件。必须保持Windows x64、Python 3.11、
+Qt/PySide6 6.8系列的二进制接口相容；建议以同一6.8.3源码和编译工具链重新构建。
+程序未对这些库设置哈希锁定；替换副本先做无设备启动和功能验证，不能直接覆盖运行中程序。
+应用源码、环境锁定、离线依赖和构建脚本随本项目维护归档保存。
+本安装包licenses/corresponding-source同时附有完整QtBase、QtSvg和PySide/Shiboken
+6.8.3源包及SOURCES.json；这些是未经本项目修改的上游完整源码，不只是许可摘录。
+维护源码包packaging/corresponding-source含相同文件，构建前自动核对SHA256。
+如需重建，先解压这些源包，按包内README和构建说明准备相容的Windows x64工具链，
+先构建QtBase及QtSvg，再以该Qt构建PySide/Shiboken，保留Python3.11及Qt6.8.3 ABI。
+在独立副本中替换并完成启动/功能验证后，再按现场维护流程更新正式程序。
+原始官方来源同时保留如下：
+https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz
+https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz
+https://code.qt.io/cgit/pyside/pyside-setup.git/tag/?h=v6.8.3
+本次取得的源包URL、SHA256及逐文件来源/哈希记录在upstream/SOURCES.json。
+
+发行包保留Windows平台、离屏验收、常用图像和样式插件；不分发未使用的
+Qt Virtual Keyboard、Qt PDF及由其引入的QML/Quick模块，也不分发未调用的QtNetwork
+及其宿主环境自动发现的TLS库。图表使用Qt默认光栅绘图，不附可选Mesa软件OpenGL渲染器。
+本安装包没有发布者数字签名；SHA256用于核对交付文件，不能替代发布者数字签名。
+各第三方权利和使用条件以随附上游原文为准。这里是维护说明，不修改上游许可。

@@ -1,0 +1,28 @@
+{
+  "archives": [
+    {
+      "name": "qtbase",
+      "url": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz",
+      "file": "qtbase-everywhere-src-6.8.3.tar.xz",
+      "sha256": "56001B905601BB9023D399F3BA780D7FA940F3E4861E496A7C490331F49E0B80",
+      "bytes": 48426536,
+      "version": "6.8.3"
+    },
+    {
+      "name": "qtsvg",
+      "url": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz",
+      "file": "qtsvg-everywhere-src-6.8.3.tar.xz",
+      "sha256": "35EB516460F00F264EB504BAA253432384351CF23FB9980A5857190E8DEEF438",
+      "bytes": 2009072,
+      "version": "6.8.3"
+    },
+    {
+      "name": "pyside-setup",
+      "url": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3",
+      "file": "pyside-setup-6.8.3.tar.gz",
+      "sha256": "055B467903327E947B60DDEFD2E9E66F6B7558B92A0728C4596E0DC8CE5DD695",
+      "bytes": 19311100,
+      "version": "6.8.3"
+    }
+  ]
+}

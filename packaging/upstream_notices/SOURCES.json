@@ -1,0 +1,1032 @@
+{
+  "retrieved_at": "2026-10-17T18:10:44.030912+00:00",
+  "scope": "Version-pinned upstream license and attribution files; conservative source-tree superset, not a runtime SBOM",
+  "archives": [
+    {
+      "name": "qtbase",
+      "url": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz",
+      "file": "qtbase-everywhere-src-6.8.3.tar.xz",
+      "sha256": "56001B905601BB9023D399F3BA780D7FA940F3E4861E496A7C490331F49E0B80",
+      "bytes": 48426536,
+      "version": "6.8.3"
+    },
+    {
+      "name": "qtsvg",
+      "url": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz",
+      "file": "qtsvg-everywhere-src-6.8.3.tar.xz",
+      "sha256": "35EB516460F00F264EB504BAA253432384351CF23FB9980A5857190E8DEEF438",
+      "bytes": 2009072,
+      "version": "6.8.3"
+    },
+    {
+      "name": "pyside-setup",
+      "url": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3",
+      "file": "pyside-setup-6.8.3.tar.gz",
+      "sha256": "055B467903327E947B60DDEFD2E9E66F6B7558B92A0728C4596E0DC8CE5DD695",
+      "bytes": 19311100,
+      "version": "6.8.3"
+    }
+  ],
+  "files": [
+    {
+      "path": "qtbase/.QT-ENTERPRISE-LICENSE-AGREEMENT",
+      "sha256": "8D01D6E9CC613B9F74BB3BF7EE0BBD68144A9DE8504F2B3827B2B25882E855BB",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/.QT-ENTERPRISE-LICENSE-AGREEMENT"
+    },
+    {
+      "path": "qtbase/LICENSES/AFL-2.1.txt",
+      "sha256": "93BB4F7417AA775BAB9026CC3D0AF28AEB64451FC5A8EC651876785EDD8EAF9B",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/AFL-2.1.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Apache-2.0.txt",
+      "sha256": "E3BA223BB1423F0AAD8C3DFCE0FE3148DB48926D41E6FBC3AFBBF5FF9E1C89CB",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Apache-2.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/BSD-2-Clause.txt",
+      "sha256": "8FDA146749CA071AC9CDCE2E24D25444676EA48D1F9DCCC2B7C15C054B717DB8",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/BSD-2-Clause.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/BSD-3-Clause.txt",
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/BSD-3-Clause.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/BSD-4-Clause.txt",
+      "sha256": "83FAA0D205C316CE3EFEAFEE465B6A165914FB29595968C08DC6437021B7B6FD",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/BSD-4-Clause.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/BSL-1.0.txt",
+      "sha256": "3ABD6471B9A9A08D65CE771143F8E278BB4C1AEB10C1C2D476935A6B049653F5",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/BSL-1.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Bitstream-Vera.txt",
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Bitstream-Vera.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/CC0-1.0.txt",
+      "sha256": "A2010F343487D3F7618AFFE54F789F5487602331C0A8D03F49E9A7C547CF0499",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/CC0-1.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/FTL.txt",
+      "sha256": "08C135755DD589039470F1FDBB400DAAABAAA50D0B366D19CEBFF4D22986BAA1",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/FTL.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/GFDL-1.3-no-invariants-only.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/GPL-2.0-only.txt",
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/GPL-2.0-only.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/GPL-2.0-or-later.txt",
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/GPL-2.0-or-later.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/GPL-3.0-only.txt",
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/GPL-3.0-only.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/HPND.txt",
+      "sha256": "67AC968431270291F5E9CD3ED76705E1169F57082EE102093B2543B28CEF63CF",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/HPND.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/IJG.txt",
+      "sha256": "1CB448F5E2E6D3ACA60943F4EEE1A04675628DC0266A074A42BC1560EBC28D61",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/IJG.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/IPL-1.0.txt",
+      "sha256": "D5328E672FB1BFF47EE18E890784541453380081CF3771BB7B3C06FC19C7D503",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/IPL-1.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Imlib2.txt",
+      "sha256": "8846F2BABA1A7F4C36F7CA19A923A000D8A21AFA37CF0FE006F6CE88A6058A89",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Imlib2.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/LGPL-3.0-only.txt",
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/LGPL-3.0-only.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Libpng.txt",
+      "sha256": "58FE669792F9B4E0740BF75ECFE90B5326128BB2CE7E27E1C342ABD9DB4D8EA6",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Libpng.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt",
+      "sha256": "0526625FCC746A42D3F19A0AB357D3DC8479FDBE3BFD168825498F50215C7A63",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/LicenseRef-ICC-License.txt",
+      "sha256": "9E34FF47B3A44814E183342E7E198D127A6740E29D20E8381FBA7688DAFC79DD",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/LicenseRef-ICC-License.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/LicenseRef-Lcs-Telegraphics.txt",
+      "sha256": "C10225EBBD5191BFDD761B0D7752C785F2453AB665D6C454473FB12D254668AA",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/LicenseRef-Lcs-Telegraphics.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/LicenseRef-Qt-Commercial.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/LicenseRef-SHA1-Public-Domain.txt",
+      "sha256": "65D86B8EC6B1CD8B8F6E64FD8710274BA00D6A3C520E00DFDCD1C3D2071F3305",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/LicenseRef-SHA1-Public-Domain.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Linux-syscall-note.txt",
+      "sha256": "3F9E477523FEBAB58DE8B716CCFBCF02E6EF1C8E7728953905E8558637ABE2A9",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Linux-syscall-note.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/MIT-Khronos-old.txt",
+      "sha256": "3C58021633974F9ED3C3D445A374240A5244FD039628F4D7F6F3E674BC8E6694",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/MIT-Khronos-old.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/MIT-open-group.txt",
+      "sha256": "C55D2AB72D8A4F9E9CD8FBD1379268E575E8CFA16874AFFA5899B75A6D754514",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/MIT-open-group.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/MIT.txt",
+      "sha256": "D040359701C01996A017D5C515678929CD1B0625E64CB86DB44025FBB6CDF1FC",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/MIT.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/MPL-2.0.txt",
+      "sha256": "3F3D9E0024B1921B067D6F7F88DEB4A60CBE7A78E76C64E3F1D7FC3B779B9D04",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/MPL-2.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Qt-GPL-exception-1.0.txt",
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Qt-GPL-exception-1.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/SPL-1.0.txt",
+      "sha256": "F58F2F30909982445F97F1A61667261920A7CAEAB21EF5BEA1B740F5B144D141",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/SPL-1.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Unicode-3.0.txt",
+      "sha256": "80BB6294022D8764ADB36A9D65EBB6BD94EFB1865918A71E31E6C247607D7634",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Unicode-3.0.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/X11.txt",
+      "sha256": "E2936C6509784B4F0EC27BAC74182393866FAD9422B29A70E085FF14ABA87193",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/X11.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Xerox.txt",
+      "sha256": "B6BC52205D01E10CF43DBB7B8AEC06DCAA3B21D1486E7C9C0BEC329EE8244D8D",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Xerox.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/Zlib.txt",
+      "sha256": "D7E3139972874DC8ABDBBFCE27EC1E6F942B28279DD7D27453630A8B4610E080",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/Zlib.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/blessing.txt",
+      "sha256": "592DB1199AAB67AAFE4515DB9808B420DB122083807C5329B2F061951E79ACBE",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/blessing.txt"
+    },
+    {
+      "path": "qtbase/LICENSES/libpng-2.0.txt",
+      "sha256": "7317E078E2D3B5D7BA5A6159E650945153262B44B76F6700F8E9EDB261C5143E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/LICENSES/libpng-2.0.txt"
+    },
+    {
+      "path": "qtbase/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS",
+      "sha256": "46CDE7DC11E64C78D650B4851B88F6704B4665FF60F22A1CAF68CEB15E217E5B",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS"
+    },
+    {
+      "path": "qtbase/cmake/3rdparty/extra-cmake-modules/qt_attribution.json",
+      "sha256": "1723EC7150C2181F373795FEB78E2C1BCD1EC1D748471E4E02048C2B32489157",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/cmake/3rdparty/extra-cmake-modules/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS",
+      "sha256": "46CDE7DC11E64C78D650B4851B88F6704B4665FF60F22A1CAF68CEB15E217E5B",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS"
+    },
+    {
+      "path": "qtbase/cmake/3rdparty/kwin/qt_attribution.json",
+      "sha256": "598CB7392971E68CA71039CE3A8063E4FC4504A170D7AD4B80B73857511376A3",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/cmake/3rdparty/kwin/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/cmake/QtPublicSbomLicenseHelpers.cmake",
+      "sha256": "27E64C546400558C87989E749485BED94957FD1174627BE5C4F1C932E08C1254",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/cmake/QtPublicSbomLicenseHelpers.cmake"
+    },
+    {
+      "path": "qtbase/coin/instructions/prepare_license_test.yaml",
+      "sha256": "78989D200B48BD87D0B6CC88F147F9829B07778918CAAFBEFC04677B1BE9E710",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/coin/instructions/prepare_license_test.yaml"
+    },
+    {
+      "path": "qtbase/coin/instructions/run_license_check.yaml",
+      "sha256": "CD779963B9CA303B74F89A454093530387EADD043802BC72ABE9916C6383767E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/coin/instructions/run_license_check.yaml"
+    },
+    {
+      "path": "qtbase/doc/src/images/licensewizard-example.png",
+      "sha256": "B58D613534D4C50598862342D5C2F96234CE0FDA8972B80C9BA2E3B4B6B282C3",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/doc/src/images/licensewizard-example.png"
+    },
+    {
+      "path": "qtbase/examples/widgets/dialogs/licensewizard/licensewizard.cpp",
+      "sha256": "C81CF50625B97A2EABCFE46C8B20CCEA123736EC5C6E149A86711AE61AF226EC",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/examples/widgets/dialogs/licensewizard/licensewizard.cpp"
+    },
+    {
+      "path": "qtbase/examples/widgets/dialogs/licensewizard/licensewizard.h",
+      "sha256": "1D81A5D9ADC3CEBA888AA57B77974350FEDE49082075974504762F1618FDB533",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/examples/widgets/dialogs/licensewizard/licensewizard.h"
+    },
+    {
+      "path": "qtbase/examples/widgets/dialogs/licensewizard/licensewizard.pro",
+      "sha256": "42668D006D6EE28ED66BA3910CF1D106480631DDC24EF5AEE665B982084CCF8A",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/examples/widgets/dialogs/licensewizard/licensewizard.pro"
+    },
+    {
+      "path": "qtbase/examples/widgets/dialogs/licensewizard/licensewizard.qrc",
+      "sha256": "7D26A009BC3AD6AA90DE263B4BC4B35A54296745629F0A13B35FBD8E1D96D0F3",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/examples/widgets/dialogs/licensewizard/licensewizard.qrc"
+    },
+    {
+      "path": "qtbase/examples/widgets/doc/src/licensewizard.qdoc",
+      "sha256": "6D5346D0F341F0A10BDE888140DC646145985236DD1F19C3C6375AC1B94FF276",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/examples/widgets/doc/src/licensewizard.qdoc"
+    },
+    {
+      "path": "qtbase/licenseRule.json",
+      "sha256": "9D1D8F3E79F3EB43569031DFCDCE04A6F81C8B2201412D4EF08EB628DCC27163",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/licenseRule.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/D3D12MemoryAllocator/LICENSE.txt",
+      "sha256": "1B3941C52B26D42C510AFBDF205A8B96A6D64F5A7B8EBFF0287979FD91DFD52F",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/D3D12MemoryAllocator/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/D3D12MemoryAllocator/qt_attribution.json",
+      "sha256": "182D7E5ED90DC592B01A50635C85F4039CA6F25F88EC4700B08FAF6F07FDA09E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/D3D12MemoryAllocator/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/VulkanMemoryAllocator/LICENSE.txt",
+      "sha256": "846D97C8B74CCAA92B9AD031140A04363B3B3985F318094552F297B8BDA1C68E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/VulkanMemoryAllocator/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/VulkanMemoryAllocator/qt_attribution.json",
+      "sha256": "D00A867E3DF29E108BD60194DCAD6DA8D9EA89D185C8AFD93A00429628156346",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/VulkanMemoryAllocator/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/android/LICENSE",
+      "sha256": "4A51CF7F724F51BEDB5FA4F9583A2762F1DB8D05E43A577E2487C7AAB2FDCE18",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/android/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/android/qt_attribution.json",
+      "sha256": "120710D661892CEB44A94556C56998795372334674C79710947282E8279EF415",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/android/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/blake2/COPYING",
+      "sha256": "4103F471877ED0BAE500752C5FCD7ECCA409D4A4A8DC2AD40437DABA60F1A2BC",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/blake2/COPYING"
+    },
+    {
+      "path": "qtbase/src/3rdparty/blake2/qt_attribution.json",
+      "sha256": "BAB552307BDD03ED9A4CF7F8F1397C3D18D4DBEE19EE576033284104785245BE",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/blake2/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/double-conversion/LICENSE",
+      "sha256": "4AF93C12062C58058378DE2397DC1C92BBFF9DDFB1D583A01C84127557CE97CA",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/double-conversion/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/double-conversion/qt_attribution.json",
+      "sha256": "B68E633437CCE59DEC970776F5C4D3B9FC39C5D9EDAEC03E8894591A6721D1ED",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/double-conversion/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/easing/LICENSE",
+      "sha256": "92FAC99458F1754B73EDF50F9C9983E0EFAA06AD96E2AFD5E538C79F45B4B191",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/easing/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/easing/qt_attribution.json",
+      "sha256": "77D67A1DB5882BB0B9A1278B014885BEE45A4C059D1DA9F835B6DA5BC4B9C93D",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/easing/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/forkfd/LICENSE",
+      "sha256": "D0D683AE18E78FBEF90EB41168FB781920DA2D12BF80704490F0882915C18AE0",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/forkfd/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/forkfd/qt_attribution.json",
+      "sha256": "525FD890017A3966F542DA42A9FF0CA2A0D71BC45F80A4871DE3E0BD0F612612",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/forkfd/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/BDF-LICENSE.txt",
+      "sha256": "E4E792F29E66750F2E410FD7B50A567652C180F6EE15E1A4DFA0BB5CDE524537",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/BDF-LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/LICENSE.txt",
+      "sha256": "BF543CDDA11864477B8D2CA2AA9AFC2AAA8F9133461B4D962ED6EC73646256A1",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/PCF-LICENSE.txt",
+      "sha256": "6938597BFDECA0DB191A8F9EDE52EAF2482C2C71A0094C084747A1235F9958FE",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/PCF-LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/ZLIB-LICENSE.txt",
+      "sha256": "2B1F5D615382A151AF3EB71462AD17D89E2EFEE8FA7664058D35D3D9237EBB19",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/ZLIB-LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/qt_attribution.json",
+      "sha256": "3BB2EABC9379310A420EC2461E85A3224396CF8BA15FD53591D770CA16715553",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/src/tools/no-copyright",
+      "sha256": "3E2C8DB4E09E12E9A138BA7BA8C0B762EFF36802C6C1273D73AC049D4949A298",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/src/tools/no-copyright"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/src/tools/update-copyright",
+      "sha256": "AE5B05F1D3F5235EB91CE41518BE95022443F68BCE5D200B6E1CC1FB57A5017E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/src/tools/update-copyright"
+    },
+    {
+      "path": "qtbase/src/3rdparty/freetype/src/tools/update-copyright-year",
+      "sha256": "1043AB2F00DC9B79E90F913F3CC8C9E45759F12B4676D8188A6BE81A578612C1",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/freetype/src/tools/update-copyright-year"
+    },
+    {
+      "path": "qtbase/src/3rdparty/gradle/LICENSE",
+      "sha256": "9536D88EA948603D18E232A13F5958D67807CD80828036B082BFF171D2CF0703",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/gradle/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/gradle/qt_attribution.json",
+      "sha256": "D8950522E452E35C44D3660DDEFFF2F28F2DD342B500A4ACB8FE1B9997627849",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/gradle/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/harfbuzz-ng/COPYING",
+      "sha256": "BA8F810F2455C2F08E2D56BB49B72F37FCF68F1F4FADE38977CFD7372050AD64",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/harfbuzz-ng/COPYING"
+    },
+    {
+      "path": "qtbase/src/3rdparty/harfbuzz-ng/qt_attribution.json",
+      "sha256": "C998C9784A4A0021C2F68632A9E8CD5589DBC7F7336FEEB156A4240B6B32D718",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/harfbuzz-ng/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/iaccessible2/LICENSE",
+      "sha256": "603FB8E9A443C95CB56C0E458A0AD17FDCADFC5BBB7E580D2199EE0145882746",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/iaccessible2/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/iaccessible2/qt_attribution.json",
+      "sha256": "FC3B6C3ACEEB15B92302E1375AA8F48A692B39CE5250458E88AE137CEF2922C6",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/iaccessible2/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/icc/LICENSE.txt",
+      "sha256": "9E34FF47B3A44814E183342E7E198D127A6740E29D20E8381FBA7688DAFC79DD",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/icc/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/icc/qt_attribution.json",
+      "sha256": "509DA9BD2B3F769C730AA4627B1080D65F39B0ECD4130111C9E1122E13CD35B5",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/icc/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libjpeg/COPYRIGHT.txt",
+      "sha256": "F26A2C0B6C1AB7E40444DE31CC5B112A534CC589D6FD9B93620054E9692B81C6",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libjpeg/COPYRIGHT.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libjpeg/LICENSE",
+      "sha256": "96F5B328ADBB78EEAAEC6980D73FD558CB1E4D62560ED615646BC3CF5E532430",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libjpeg/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libjpeg/ijg-license.txt",
+      "sha256": "1CB448F5E2E6D3ACA60943F4EEE1A04675628DC0266A074A42BC1560EBC28D61",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libjpeg/ijg-license.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libjpeg/qt_attribution.json",
+      "sha256": "874587F89655D70E9926048B2C9F4F2C15F8795DC64E4A492F753CEE06ED6432",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libjpeg/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libpng/LICENSE",
+      "sha256": "16D9DAAAFBF63A31A5BDC91D4600972548FEF5AAA1244202393288DBD079C49A",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libpng/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libpng/qt_attribution.json",
+      "sha256": "2970938574023E02B60B5B7C75D21E11B7E4476CDC2C1A5386B01AC5BC678943",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libpng/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libpsl/PSL-LICENSE.txt",
+      "sha256": "3F3D9E0024B1921B067D6F7F88DEB4A60CBE7A78E76C64E3F1D7FC3B779B9D04",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libpsl/PSL-LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libpsl/qt_attribution.json",
+      "sha256": "52D2286E673CDC88DD0B02DB46352F994DAC2C359E4632644DC4D595CF144CE7",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libpsl/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/libpsl/src/LICENSE.chromium",
+      "sha256": "1D7F52747A9169751CDF2641A8299C0098E9ECDF9429296FFD55BDB14C9ED5B3",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/libpsl/src/LICENSE.chromium"
+    },
+    {
+      "path": "qtbase/src/3rdparty/md4/qt_attribution.json",
+      "sha256": "34BDA63A2FCC23C83F2E5364CCD394553B4BAA505B1F79DED9CC2161C56A9B4C",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/md4/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/md4c/LICENSE.md",
+      "sha256": "D30937367D5413E7EAA218B1640B8946FF76FD34D97152F6979FD96169D5D0FC",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/md4c/LICENSE.md"
+    },
+    {
+      "path": "qtbase/src/3rdparty/md4c/qt_attribution.json",
+      "sha256": "59098B9262AC268E73495CB1B1603B5C899D5C532DB6CA96E69FFAC7062445F5",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/md4c/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/md5/qt_attribution.json",
+      "sha256": "20B0F1B17CCD1BD5E8D763B1CDCA4B095B8F0C037644B5EE18154536B7D8425E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/md5/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/pcre2/LICENCE-SLJIT",
+      "sha256": "5F216505C0F6EA3273CAEC89E766EEF93CDEB7BBB0C429F9360116D7C938FEEB",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/pcre2/LICENCE-SLJIT"
+    },
+    {
+      "path": "qtbase/src/3rdparty/pcre2/LICENCE.md",
+      "sha256": "9CF7AC6976099A1D856826D3EF1B093BD6B84489DC6100628AC79E740CF9885A",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/pcre2/LICENCE.md"
+    },
+    {
+      "path": "qtbase/src/3rdparty/pcre2/qt_attribution.json",
+      "sha256": "CB7AE8B37A3E8E1D2A20FBE44FC5306ED5CDA404035A667FED56F7139636048E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/pcre2/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/pixman/LICENSE",
+      "sha256": "942C4F2A80394D3F53599B8382E9F27349B95C45D92B69B84F26D404F4DD74A5",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/pixman/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/pixman/qt_attribution.json",
+      "sha256": "F1DC159B63BF84A4C9C367E8FF79AA748B63F5FC622D5080C0A7DDD98DDC7AC7",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/pixman/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/rfc6234/LICENSE",
+      "sha256": "7CCEBD514AAABC86192F957D773CEBF06577C12FE9F25ECD419C6CAC5DA7A14C",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/rfc6234/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/rfc6234/qt_attribution.json",
+      "sha256": "FA24413BDC5015FC7FC84297FA17D4C8A598F8F7C76B9495A6E6B26A77B4A324",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/rfc6234/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/sha1/qt_attribution.json",
+      "sha256": "53CAB2C771F7F7FFBF6A58FF759E5846B746E91D98DFE467D5145EDF8CD7D306",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/sha1/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/sha3/BRG_ENDIAN_LICENSE",
+      "sha256": "2FED6F252CA4A7E813811DE3CD3CD08183EDD4138BDEE909410EF6EEE394E82C",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/sha3/BRG_ENDIAN_LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/sha3/CC0_LICENSE",
+      "sha256": "1F2786E2C5BEFEB4DCBA6638DB6528BF96EF5D2CF24BC85AB5A81EF00ABEF59D",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/sha3/CC0_LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/sha3/qt_attribution.json",
+      "sha256": "C14F8C923BDDE00E14D52AC826475F29C690B0615337E641D818D3243EB26A87",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/sha3/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/siphash/qt_attribution.json",
+      "sha256": "8614947DFC0CA1D21AAD2F88B4400598262AB8C08AA87C4F7ACC0C2DE6E5619E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/siphash/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/sqlite/qt_attribution.json",
+      "sha256": "0BB4312DFE1E3896713954ACCEDB0ED50453268F0983A7C10FA5DF038D2B7E89",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/sqlite/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/tinycbor/LICENSE",
+      "sha256": "3C6BA0B5BFA7830505301FFB336A17B0748E0D61C4D34216E9DC98F10E40395E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/tinycbor/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/tinycbor/qt_attribution.json",
+      "sha256": "3CD7042C743868AA67D792B85CD1E113B02CFA5273EA727A5A40915C9163B377",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/tinycbor/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/wasm/DEJAVU-LICENSE",
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/wasm/DEJAVU-LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/wasm/qt_attribution.json",
+      "sha256": "2019D37665BFB2CE7D4931D0BDF7427EA178919399CF37C0FEF14A229144936B",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/wasm/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/wintab/qt_attribution.json",
+      "sha256": "B879EA91B719531D45E1CFE33D2241D060A9260200BD91A09ADA074B16063F9C",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/wintab/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/xcb/LICENSE",
+      "sha256": "82775191BC05F85B40404D77BB69B1EDEAEB4033F48387E9E5EAB4DD67F5D6F1",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/xcb/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/xcb/qt_attribution.json",
+      "sha256": "8BAE8861957BC0168D586D24DA6E8E93EDCEB11796811C5F614D211F4674D437",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/xcb/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/3rdparty/zlib/LICENSE",
+      "sha256": "D7E3139972874DC8ABDBBFCE27EC1E6F942B28279DD7D27453630A8B4610E080",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/zlib/LICENSE"
+    },
+    {
+      "path": "qtbase/src/3rdparty/zlib/qt_attribution.json",
+      "sha256": "6A37EAF51D8EBB7BD19E01A9A2334DA8557409ACB520EF6D1813C6D742771030",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/3rdparty/zlib/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/corelib/kernel/QEVENTDISPATCHER_CF_LICENSE.txt",
+      "sha256": "E9E5B9F66D21C0E88A4179525AB39CD8D7EAC9AF78A8404F322C32B0874783D5",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/corelib/kernel/QEVENTDISPATCHER_CF_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/corelib/kernel/qt_attribution.json",
+      "sha256": "35639D420FB5AAC3E5A702269E3CB8E9E18F5145DD36003EA6DEE45ED4AF4E2D",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/corelib/kernel/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/corelib/mimetypes/3rdparty/qt_attribution.json",
+      "sha256": "45B454443CC0D5450FDE18B76B555700DBFF0937B925B8482290950330C9B370",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/corelib/mimetypes/3rdparty/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/corelib/text/qt_attribution.json",
+      "sha256": "6A2AC10D23F98E987A7176281CC1AF6DA01F5289A7B41A473E20F023A952C0E4",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/corelib/text/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/dbus/LIBDBUS-1-LICENSE.txt",
+      "sha256": "AD90AA08BB1A9B7056AA51E2E215B36630855457CDE5DFFD36AA0FAA7B169F24",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/dbus/LIBDBUS-1-LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/dbus/qt_attribution.json",
+      "sha256": "C03E804FB402AD8CE4C2268CF2F820493A1C5C06D624FB61A24EAA0BC2FCB66D",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/dbus/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/gui/opengl/KHRONOS_LICENSE.txt",
+      "sha256": "2E484F3C26FF5008C704A3CA9DD809D43F24A004A1ABB6C202660FBFF0D19715",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/opengl/KHRONOS_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/gui/opengl/qt_attribution.json",
+      "sha256": "50FCB16F440DF6E7EA2778DBC81CC8CAEB0DBD770DAA4EFDDD125ADACAA6CF36",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/opengl/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/gui/painting/QIMAGETRANSFORM_LICENSE.txt",
+      "sha256": "46B3CBFA2F2946B93291506351E9BE1DD0A28D2A53260F5AA488ABD36FBECA9D",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/painting/QIMAGETRANSFORM_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/gui/painting/XCONSORTIUM_LICENSE.txt",
+      "sha256": "A216B01291EB38FC1AF93CFCCF1FC67B48D9923612E517C2A695E95B3F03C22C",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/painting/XCONSORTIUM_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/gui/painting/qt_attribution.json",
+      "sha256": "6827F1FEC09E4A3C89381F0724C998243E412A56A47735AB5B899D470FB47DDF",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/painting/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/gui/rhi/MiniEngine_LICENSE.txt",
+      "sha256": "CF248820BF1178370BB4F1670A59F8748D46BC96D0F64080CD631511C6046409",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/rhi/MiniEngine_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/gui/rhi/qt_attribution.json",
+      "sha256": "2F362DFBFB7D8F4B3998D3ADDE8D2F2124DF588E6A48F177E335679FDED585ED",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/rhi/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/gui/text/AGLFN_LICENSE.txt",
+      "sha256": "40818155548FF41C67D3A40EDF355E9658992B292C227F4C1147425CEDC746C6",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/text/AGLFN_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/gui/text/qt_attribution.json",
+      "sha256": "CC5C2EEDAE7D50DF84088F1F73A7E3B4720EB3DE07019E0DDCC97AF74E631671",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/text/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/gui/vulkan/LICENSE.txt",
+      "sha256": "5F618873B0CDD1E84C611C5529212C2524BFC887BDFD7D1F3B568BAD3C649612",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/vulkan/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/gui/vulkan/licenseheader.h.in",
+      "sha256": "6975A5D3DD6BB9E5FA9058F5D8739B68CA7D635FCFAE8BEC21949EC4331813EC",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/vulkan/licenseheader.h.in"
+    },
+    {
+      "path": "qtbase/src/gui/vulkan/qt_attribution.json",
+      "sha256": "4DCB0C227CE6D6079C413E226D67F19A477338AF1945DE4D7C841BA992CF0505",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/gui/vulkan/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/plugins/platforms/cocoa/COCOA_LICENSE.txt",
+      "sha256": "E9E5B9F66D21C0E88A4179525AB39CD8D7EAC9AF78A8404F322C32B0874783D5",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/plugins/platforms/cocoa/COCOA_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/plugins/platforms/cocoa/qt_attribution.json",
+      "sha256": "15D905306337542288D20AAC31C3CFFBCF28A488DBA6236EAB17CC8B86F51975",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/plugins/platforms/cocoa/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/testinternal/3rdparty/cmake/Copyright.txt",
+      "sha256": "0676E30827684487AA0EA8F72F01E9460A6320FA34A2888DF0AD1DD3E8A06EB8",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testinternal/3rdparty/cmake/Copyright.txt"
+    },
+    {
+      "path": "qtbase/src/testinternal/3rdparty/cmake/qt_attribution.json",
+      "sha256": "F194EA33CF9B0D44615A6FA9EB4D45E7796B50CB0A88CDADF5D9B15745BF52F0",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testinternal/3rdparty/cmake/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/catch2/LICENSE.txt",
+      "sha256": "C9BFF75738922193E67FA726FA225535870D2AA1059F91452C411736284AD566",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/catch2/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/catch2/qt_attribution.json",
+      "sha256": "9D48FA7B86E9B0412B699E0411815766914478592DA5BBB614A45443C14504B0",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/catch2/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/cycle/LICENSE.txt",
+      "sha256": "CB5AEDB296C5246D1F22E9099F925A65146F9F0D6B4EEBBA97FD27A6CDBBAB2D",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/cycle/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/cycle/qt_attribution.json",
+      "sha256": "A3FF23399B7ECE1A0C6A9696E4F8C671A495F92A74C9C53EA5B66F27BD56B056",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/cycle/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/linux/LICENSE.txt",
+      "sha256": "ED71CFCA021790F74094E9810F42E31288E7F43CF00C8D9AC8D6F904124BD815",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/linux/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/linux/qt_attribution.json",
+      "sha256": "44299F5C08474790C164E73894B81B650463F9E40121041CEFDEEBD9B5EB734C",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/linux/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/valgrind/LICENSE.txt",
+      "sha256": "EC72EEBD6326165156787DA828CAAA18386489387AEFAA073C9BD40B8B2A400E",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/valgrind/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/src/testlib/3rdparty/valgrind/qt_attribution.json",
+      "sha256": "9FAB633484B2C78F3FDC789F0E9DFDA493B425978D2164C06BF86F733BD878BF",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/testlib/3rdparty/valgrind/qt_attribution.json"
+    },
+    {
+      "path": "qtbase/src/tools/moc/util/licenseheader.cpp.in",
+      "sha256": "331466D1E3F460EF7F3FE1FCD926307B0594311A2ED286B24EA649C82CC36CC5",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/tools/moc/util/licenseheader.cpp.in"
+    },
+    {
+      "path": "qtbase/src/widgets/doc/images/licensewizard-flow.png",
+      "sha256": "7A0E08A4499DA689B635D1C2582CEB86D4A76B94940F2FAAE733AF6E97621C43",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/src/widgets/doc/images/licensewizard-flow.png"
+    },
+    {
+      "path": "qtbase/tests/auto/corelib/io/qfile/forCopying.txt",
+      "sha256": "D866B47D243EAB6E47F6EFDC7DFADAF6E3E54DFED6A937850DA0AF3915644688",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/tests/auto/corelib/io/qfile/forCopying.txt"
+    },
+    {
+      "path": "qtbase/tests/auto/corelib/serialization/qxmlstream/XML-Test-Suite-LICENSE.txt",
+      "sha256": "B2ACE830C68A486D548834B9A93806D064A3EB041F603EC6368034D060FDF46A",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/tests/auto/corelib/serialization/qxmlstream/XML-Test-Suite-LICENSE.txt"
+    },
+    {
+      "path": "qtbase/tests/manual/examples/widgets/tools/settingseditor/inifiles/licensepage.ini",
+      "sha256": "1948DABAA56EFECD40E55CE1EBC48AF807422218408FA69B6C07BFECADDF6EA0",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/tests/manual/examples/widgets/tools/settingseditor/inifiles/licensepage.ini"
+    },
+    {
+      "path": "qtbase/tests/manual/rhi/shared/imgui/fonts/LICENSE.txt",
+      "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/tests/manual/rhi/shared/imgui/fonts/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/tests/manual/rhi/shared/imgui/imgui/LICENSE.txt",
+      "sha256": "1B64B23B817E547982A86984685F5E9337695CAA542753FB6F08D502D5208E38",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/tests/manual/rhi/shared/imgui/imgui/LICENSE.txt"
+    },
+    {
+      "path": "qtbase/util/gradientgen/WEBGRADIENTS_LICENSE.txt",
+      "sha256": "9BE732E45B638C74F9C0E5248541DD54DC7E8E9A5545DF96B5C4B7C9AC0C68BA",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/util/gradientgen/WEBGRADIENTS_LICENSE.txt"
+    },
+    {
+      "path": "qtbase/util/gradientgen/qt_attribution.json",
+      "sha256": "A25F10E47D2B7D9369486D94602AD01B60382B9F032CBBD6F465D87328D8B0E0",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.tar.xz#qtbase-everywhere-src-6.8.3/util/gradientgen/qt_attribution.json"
+    },
+    {
+      "path": "qtsvg/.QT-ENTERPRISE-LICENSE-AGREEMENT",
+      "sha256": "8D01D6E9CC613B9F74BB3BF7EE0BBD68144A9DE8504F2B3827B2B25882E855BB",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/.QT-ENTERPRISE-LICENSE-AGREEMENT"
+    },
+    {
+      "path": "qtsvg/LICENSES/BSD-3-Clause.txt",
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/LICENSES/BSD-3-Clause.txt"
+    },
+    {
+      "path": "qtsvg/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/LICENSES/GFDL-1.3-no-invariants-only.txt"
+    },
+    {
+      "path": "qtsvg/LICENSES/GPL-2.0-only.txt",
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/LICENSES/GPL-2.0-only.txt"
+    },
+    {
+      "path": "qtsvg/LICENSES/GPL-3.0-only.txt",
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/LICENSES/GPL-3.0-only.txt"
+    },
+    {
+      "path": "qtsvg/LICENSES/LGPL-3.0-only.txt",
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/LICENSES/LGPL-3.0-only.txt"
+    },
+    {
+      "path": "qtsvg/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/LICENSES/LicenseRef-Qt-Commercial.txt"
+    },
+    {
+      "path": "qtsvg/LICENSES/Qt-GPL-exception-1.0.txt",
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/LICENSES/Qt-GPL-exception-1.0.txt"
+    },
+    {
+      "path": "qtsvg/licenseRule.json",
+      "sha256": "8CBDB36BCCB167FCC98964D1BD74EAEA37EE9CCFD927F41559B77DBC5150E29B",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/licenseRule.json"
+    },
+    {
+      "path": "qtsvg/src/svg/XSVG_LICENSE.txt",
+      "sha256": "3A946598A9F674D44DF764279CA0B85B5D6FABA08F3BC75D8E0FCF6CD729A9BD",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/src/svg/XSVG_LICENSE.txt"
+    },
+    {
+      "path": "qtsvg/src/svg/qt_attribution.json",
+      "sha256": "89C0B12B30CE72D2CDA2938875AEC15BD47C6C7D8D05F41DB9840F94832CCFDD",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/src/svg/qt_attribution.json"
+    },
+    {
+      "path": "qtsvg/tests/baseline/data/svg_12_testsuite/LICENSE.txt",
+      "sha256": "635F33FBB460F1731DAD45D79DBF2301255F63296D77A064C000F92E2CC79173",
+      "source": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.tar.xz#qtsvg-everywhere-src-6.8.3/tests/baseline/data/svg_12_testsuite/LICENSE.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/Apache-2.0.txt",
+      "sha256": "E3BA223BB1423F0AAD8C3DFCE0FE3148DB48926D41E6FBC3AFBBF5FF9E1C89CB",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/Apache-2.0.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/BSD-3-Clause.txt",
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/BSD-3-Clause.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/GFDL-1.3-no-invariants-only.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/GPL-2.0-only.txt",
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/GPL-2.0-only.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/GPL-3.0-only.txt",
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/GPL-3.0-only.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/LGPL-3.0-only.txt",
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/LGPL-3.0-only.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/LicenseRef-Qt-Commercial.txt"
+    },
+    {
+      "path": "pyside-setup/LICENSES/Qt-GPL-exception-1.0.txt",
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/LICENSES/Qt-GPL-exception-1.0.txt"
+    },
+    {
+      "path": "pyside-setup/examples/datavisualization/graphgallery/data/license.txt",
+      "sha256": "FB5CBAF2315C9D953BD067B53C8359C6B0E420C05622F85BDB8802872BDF1D72",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/datavisualization/graphgallery/data/license.txt"
+    },
+    {
+      "path": "pyside-setup/examples/demos/colorpaletteclient/icons/qt_attribution.json",
+      "sha256": "0FC8A47AF683B437B267E999508080E8CB1ED6FE0AE82C450BC702387694079E",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/demos/colorpaletteclient/icons/qt_attribution.json"
+    },
+    {
+      "path": "pyside-setup/examples/graphs/3d/widgetgraphgallery/data/license.txt",
+      "sha256": "FB5CBAF2315C9D953BD067B53C8359C6B0E420C05622F85BDB8802872BDF1D72",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/graphs/3d/widgetgraphgallery/data/license.txt"
+    },
+    {
+      "path": "pyside-setup/examples/webenginequick/nanobrowser/icons/3rdparty/COPYING",
+      "sha256": "4F740497CF8AD0E564DE90D3416A06C3D6B1D69D6883FE539925E3353D68A466",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/webenginequick/nanobrowser/icons/3rdparty/COPYING"
+    },
+    {
+      "path": "pyside-setup/examples/webenginewidgets/markdowneditor/resources/3rdparty/MARKDOWN-LICENSE.txt",
+      "sha256": "A9A3A17D44F18663160F9AE9CCB630EBDF5C3995DB59327601C44A09F48A6FFB",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/webenginewidgets/markdowneditor/resources/3rdparty/MARKDOWN-LICENSE.txt"
+    },
+    {
+      "path": "pyside-setup/examples/webenginewidgets/markdowneditor/resources/3rdparty/MARKED-LICENSE.txt",
+      "sha256": "02AEE34CD3742895297E26A81928E5AF1D952D564C99EB8C04406B074AB584FB",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/webenginewidgets/markdowneditor/resources/3rdparty/MARKED-LICENSE.txt"
+    },
+    {
+      "path": "pyside-setup/examples/webenginewidgets/markdowneditor/resources/3rdparty/qt_attribution.json",
+      "sha256": "BE9CC206AFD6D7F1A77DAA7BB169A8F4734158789CCC5EEAF4FE276BFF81CFA4",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/webenginewidgets/markdowneditor/resources/3rdparty/qt_attribution.json"
+    },
+    {
+      "path": "pyside-setup/examples/webenginewidgets/simplebrowser/data/3rdparty/COPYING",
+      "sha256": "4F740497CF8AD0E564DE90D3416A06C3D6B1D69D6883FE539925E3353D68A466",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/webenginewidgets/simplebrowser/data/3rdparty/COPYING"
+    },
+    {
+      "path": "pyside-setup/examples/webenginewidgets/simplebrowser/data/3rdparty/qt_attribution.json",
+      "sha256": "E99FFA34182E6E1F4DEB0DBCD261201ACC1DFB507B5BBB649A8C5F1580523E65",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/webenginewidgets/simplebrowser/data/3rdparty/qt_attribution.json"
+    },
+    {
+      "path": "pyside-setup/examples/widgets/dialogs/licensewizard/doc/licensewizard.png",
+      "sha256": "A4D37FA6F9A146672ED95EED537723A7DA88676E108B20F18C8F349A7D116364",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/widgets/dialogs/licensewizard/doc/licensewizard.png"
+    },
+    {
+      "path": "pyside-setup/examples/widgets/dialogs/licensewizard/doc/licensewizard.rst",
+      "sha256": "FAD20794AA982DE57BE8A959B93B0F37F60F9AEE05D1D8B9CD1C8F4DB8A3F307",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/widgets/dialogs/licensewizard/doc/licensewizard.rst"
+    },
+    {
+      "path": "pyside-setup/examples/widgets/dialogs/licensewizard/licensewizard.py",
+      "sha256": "C3F3AF49A7167F91B59815FFB415E996229EF5DF4BD5DD3C80B3D77E155FB082",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/widgets/dialogs/licensewizard/licensewizard.py"
+    },
+    {
+      "path": "pyside-setup/examples/widgets/dialogs/licensewizard/licensewizard.pyproject",
+      "sha256": "63BEB560BA2443516E5BF866F25A5183E6B967AE3781397550E6CAB0E3CAAEE7",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/examples/widgets/dialogs/licensewizard/licensewizard.pyproject"
+    },
+    {
+      "path": "pyside-setup/sources/pyside6/COPYING",
+      "sha256": "3700B1C56FAE3813DFAAEF1CBA101B6EC108167F36B19F4B2CC8824CC829AA2B",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/pyside6/COPYING"
+    },
+    {
+      "path": "pyside-setup/sources/pyside6/PySide6/licensecomment.txt",
+      "sha256": "DD6A83DA77D0B6A113A574154C12CB009751C2B0DFE5C22E288CD86EBC2A1F13",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/pyside6/PySide6/licensecomment.txt"
+    },
+    {
+      "path": "pyside-setup/sources/shiboken6/ApiExtractor/COPYING",
+      "sha256": "9BF82B3636570E28118EE558DDAB479B8F183D3E20327B7685A7479DF52D6493",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/shiboken6/ApiExtractor/COPYING"
+    },
+    {
+      "path": "pyside-setup/sources/shiboken6/COPYING",
+      "sha256": "9BF82B3636570E28118EE558DDAB479B8F183D3E20327B7685A7479DF52D6493",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/shiboken6/COPYING"
+    },
+    {
+      "path": "pyside-setup/sources/shiboken6/COPYING.libsample",
+      "sha256": "902847D35ABAC99283B01C6BDD6F358D361DE6BB1473C931756AF8D68B890B2B",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/shiboken6/COPYING.libsample"
+    },
+    {
+      "path": "pyside-setup/sources/shiboken6/COPYING.libshiboken",
+      "sha256": "902847D35ABAC99283B01C6BDD6F358D361DE6BB1473C931756AF8D68B890B2B",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/shiboken6/COPYING.libshiboken"
+    },
+    {
+      "path": "pyside-setup/sources/shiboken6/libshiboken/embed/qt_python_license.txt",
+      "sha256": "BEA27410E09BBFECCD4B3C6E2FCC85B477855603C5D56ECC1A8A3ED73A857364",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/shiboken6/libshiboken/embed/qt_python_license.txt"
+    },
+    {
+      "path": "pyside-setup/sources/shiboken6/libshiboken/qt_attribution.json",
+      "sha256": "056D368770A9FF66D85DD5209AFABEE964E3095659EA715396409328BC27BA6B",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/shiboken6/libshiboken/qt_attribution.json"
+    },
+    {
+      "path": "pyside-setup/sources/shiboken6/shibokenmodule/files.dir/shibokensupport/signature/qt_attribution.json",
+      "sha256": "093D38E8EC6D682433D286BDBA94777F2F55797937E725BC40E1526C41E2DDA1",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/sources/shiboken6/shibokenmodule/files.dir/shibokensupport/signature/qt_attribution.json"
+    },
+    {
+      "path": "pyside-setup/tools/license_check.py",
+      "sha256": "60A8F466A365C20ACAF3E5947F3DB596956E4A8CCAC951D3143B09C385228FBB",
+      "source": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.8.3#pyside-setup-6.8.3/tools/license_check.py"
+    },
+    {
+      "path": "pyserial/LICENSE.txt",
+      "sha256": "F91CB9813DE6A5B142B8F7F2DEDE630B5134160AEDAEAF55F4D6A7E2593CA3F3",
+      "source": "https://raw.githubusercontent.com/pyserial/pyserial/v3.5/LICENSE.txt"
+    }
+  ]
+}
